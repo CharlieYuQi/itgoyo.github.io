@@ -1006,9 +1006,9 @@ mvn install
       <category term="官方动态" scheme="https://kotlinandroid.net/categories/%E5%AE%98%E6%96%B9%E5%8A%A8%E6%80%81/"/>
     
     
-      <category term="Android" scheme="https://kotlinandroid.net/tags/Android/"/>
-    
       <category term="Kotlin" scheme="https://kotlinandroid.net/tags/Kotlin/"/>
+    
+      <category term="Android" scheme="https://kotlinandroid.net/tags/Android/"/>
     
   </entry>
   
