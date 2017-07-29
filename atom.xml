@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>KotlinAndroid</title>
-  <subtitle>一个专注发布KotlinAndroid相关资源与优秀文章的技术网站</subtitle>
+  <title>kotlinandroid.net</title>
+  <subtitle>一个专注发布有关Kotlin、Android相关资源与优秀文章的技术网站</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kotlinandroid.net/"/>
@@ -9,7 +9,7 @@
   <id>https://kotlinandroid.net/</id>
   
   <author>
-    <name>KotlinAndroid</name>
+    <name>itgoyo</name>
     
   </author>
   
