@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kotlinandroid.net/"/>
-  <updated>2017-07-29T06:40:29.576Z</updated>
+  <updated>2017-07-29T06:44:15.999Z</updated>
   <id>https://kotlinandroid.net/</id>
   
   <author>
@@ -20,15 +20,15 @@
     <link href="https://kotlinandroid.net/2017/07/29/Android%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E5%A4%A7%E5%85%A8/"/>
     <id>https://kotlinandroid.net/2017/07/29/Android开发工具大全/</id>
     <published>2017-07-29T06:35:32.000Z</published>
-    <updated>2017-07-29T06:40:29.576Z</updated>
+    <updated>2017-07-29T06:44:15.999Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="AndroidDevTools"><a href="#AndroidDevTools" class="headerlink" title="AndroidDevTools"></a>AndroidDevTools</h1><p>[<figure class="image-bubble">
+    <content type="html"><![CDATA[<h1 id="AndroidDevTools"><a href="#AndroidDevTools" class="headerlink" title="AndroidDevTools"></a>AndroidDevTools</h1><figure class="image-bubble">
                 <div class="img-lightbox">
                     <div class="overlay"></div>
-                    <img src="https://gitter.im/inferjay/AndroidDevTools?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge" alt="Gitter](https://badges.gitter.im/Join%20Chat.svg)" title="">
+                    <img src="https://badges.gitter.im/Join%20Chat.svg" alt="" title="">
                 </div>
-                <div class="image-caption">Gitter](https://badges.gitter.im/Join%20Chat.svg)</div>
-            </figure></p>
+                <div class="image-caption"></div>
+            </figure>
 <p><strong>Android Dev Tools官网地址：<a href="http://www.androiddevtools.cn" target="_blank" rel="external">www.androiddevtools.cn</a></strong></p>
 <p>收集整理Android开发所需的Android SDK、开发中用到的工具、Android开发教程、Android设计规范，免费的设计素材等。</p>
 <p>欢迎大家推荐自己在Android开发过程中用的好用的工具、学习开发教程、用到设计素材，欢迎Star、Fork 😄。</p>
@@ -2988,7 +2988,7 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;AndroidDevTools&quot;&gt;&lt;a href=&quot;#AndroidDevTools&quot; class=&quot;headerlink&quot; title=&quot;AndroidDevTools&quot;&gt;&lt;/a&gt;AndroidDevTools&lt;/h1&gt;&lt;p&gt;[&lt;figure class=&quot;im
+      &lt;h1 id=&quot;AndroidDevTools&quot;&gt;&lt;a href=&quot;#AndroidDevTools&quot; class=&quot;headerlink&quot; title=&quot;AndroidDevTools&quot;&gt;&lt;/a&gt;AndroidDevTools&lt;/h1&gt;&lt;figure class=&quot;image-
     
     </summary>
     
