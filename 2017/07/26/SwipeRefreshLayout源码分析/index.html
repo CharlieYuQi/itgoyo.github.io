@@ -43,14 +43,15 @@
     
     
     <meta name="keywords" content="Android">
-    <meta name="description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 简">
+    <meta name="description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 简介官方文档 SwipeRefreshLayout 是一个下拉刷新控件，几乎可以包裹一个任何可以滚动的内容（ListView GridView ScrollView RecyclerView），可以自动识别垂直滚动">
 <meta name="keywords" content="Android">
 <meta property="og:type" content="article">
 <meta property="og:title" content="SwipeRefreshLayout源码分析">
 <meta property="og:url" content="https://kotlinandroid.net/2017/07/26/SwipeRefreshLayout源码分析/index.html">
 <meta property="og:site_name" content="kotlinandroid.net">
-<meta property="og:description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 简">
+<meta property="og:description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 简介官方文档 SwipeRefreshLayout 是一个下拉刷新控件，几乎可以包裹一个任何可以滚动的内容（ListView GridView ScrollView RecyclerView），可以自动识别垂直滚动">
 <meta property="og:image" content="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star">
+<meta property="og:image" content="https://kotlinandroid.net/2017/07/26/SwipeRefreshLayout源码分析/images/SwipeRefreshLayout1">
 <meta property="og:image" content="https://kotlinandroid.net/2017/07/26/SwipeRefreshLayout源码分析/images/SwipeRefreshLayout2">
 <meta property="og:image" content="https://dn-coding-net-production-pp.qbox.me/8e02212d-b364-4df8-bfaa-47f3084f89e7.png">
 <meta property="og:image" content="https://dn-coding-net-production-pp.qbox.me/8df6d458-700b-4ec5-b731-c6b8c34cdddc.png">
@@ -58,7 +59,7 @@
 <meta property="og:updated_time" content="2017-07-26T12:05:30.578Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SwipeRefreshLayout源码分析">
-<meta name="twitter:description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 简">
+<meta name="twitter:description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 简介官方文档 SwipeRefreshLayout 是一个下拉刷新控件，几乎可以包裹一个任何可以滚动的内容（ListView GridView ScrollView RecyclerView），可以自动识别垂直滚动">
 <meta name="twitter:image" content="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star">
     
         <link rel="alternative" href="/atom.xml" title="kotlinandroid.net" type="application/atom+xml">
@@ -249,24 +250,12 @@
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+            <p><img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;label=Star" alt=""></p>
 <p>项目地址： <a href="https://github.com/itgoyo/AndroidSource-Analysis" target="_blank" rel="external">https://github.com/itgoyo/AndroidSource-Analysis</a></p>
 <p>简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。</p>
 <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p><a href="http://developer.android.com/intl/zh-cn/reference/android/support/v4/widget/SwipeRefreshLayout.html" target="_blank" rel="external">官方文档</a></p>
 <p><code>SwipeRefreshLayout</code> 是一个下拉刷新控件，几乎可以包裹一个任何可以滚动的内容（ListView GridView ScrollView RecyclerView），可以自动识别垂直滚动手势。使用起来非常方便。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="images/SwipeRefreshLayout2" alt="](images/SwipeRefreshLayout1) ![" title="">
-                </div>
-                <div class="image-caption">](images/SwipeRefreshLayout1) ![</div>
-            </figure>
+<p><img src="images/SwipeRefreshLayout1" alt=""> <img src="images/SwipeRefreshLayout2" alt=""></p>
 <p> 1.将需要下拉刷新的空间包裹起来</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">android.support.v4.widget.SwipeRefreshLayout</span></span></div><div class="line">    <span class="attr">android:layout_width</span>=<span class="string">"match_parent"</span></div><div class="line">    <span class="attr">android:layout_height</span>=<span class="string">"match_parent"</span>&gt;</div><div class="line"></div><div class="line">    <span class="tag">&lt;<span class="name">android.support.v7.widget.RecyclerView</span></span></div><div class="line">        <span class="attr">android:id</span>=<span class="string">"@+id/recyclerView"</span></div><div class="line">        <span class="attr">android:layout_width</span>=<span class="string">"match_parent"</span></div><div class="line">        <span class="attr">android:layout_height</span>=<span class="string">"match_parent"</span>/&gt;</div><div class="line"></div><div class="line"><span class="tag">&lt;/<span class="name">android.support.v4.widget.SwipeRefreshLayout</span>&gt;</span></div></pre></td></tr></table></figure>
 <p> 2.设置刷新动画的触发回调</p>
@@ -325,13 +314,7 @@
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>分析 SwipeRefreshLayout 的流程就是按照平时我们自定义 <code>ViewGroup</code> 的流程，但是其中也有好多需要我们借鉴的地方，如何使用 NestedScrolling相关机制 ，多点触控的处理，onMeasure 中减去了 padding，如何判断子 View 是否可滚动，如何确定 ViewGroup 中某一个 View 的索引等。<br>此外，一个好的下拉刷新框架不仅仅要兼容各种滚动的子控件，还要考虑自己要兼容 NestedScrollingChild 的情况，比如放到 CooCoordinatorLayout 的情况，目前大多数开源的下拉刷新好像都没有达到这个要求，一般都是只考虑了内部嵌套滚动子视图的情况，没有考虑自己作为滚动子视图的情况。</p>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 
         </div>
 
@@ -508,7 +491,13 @@
 </div>
 
         <footer class="footer">
-
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?c16d3c10c9ea6c6fe749d9926d52b0d6";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
     <div class="bottom">
   
 <p>
