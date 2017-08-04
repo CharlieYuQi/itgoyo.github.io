@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     
 
     
@@ -43,13 +44,13 @@
     
     
     <meta name="keywords" content="Android">
-    <meta name="description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 本文是基于 Android 6.0.0 和 kernel 3.4 源码 及 Android SDK 23 展开的 1. 简介Binder 是一种 Android 进程间通信机制，提供远程过程调用(Remote Pr">
+    <meta name="description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 本">
 <meta name="keywords" content="Android">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Binder源码分析">
 <meta property="og:url" content="https://kotlinandroid.net/2017/07/26/Binder源码分析/index.html">
 <meta property="og:site_name" content="kotlinandroid.net">
-<meta property="og:description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 本文是基于 Android 6.0.0 和 kernel 3.4 源码 及 Android SDK 23 展开的 1. 简介Binder 是一种 Android 进程间通信机制，提供远程过程调用(Remote Pr">
+<meta property="og:description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 本">
 <meta property="og:image" content="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star">
 <meta property="og:image" content="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/android_binder.png">
 <meta property="og:image" content="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/AIDL.png">
@@ -61,7 +62,7 @@
 <meta property="og:updated_time" content="2017-07-26T11:45:24.437Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Binder源码分析">
-<meta name="twitter:description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 本文是基于 Android 6.0.0 和 kernel 3.4 源码 及 Android SDK 23 展开的 1. 简介Binder 是一种 Android 进程间通信机制，提供远程过程调用(Remote Pr">
+<meta name="twitter:description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 本">
 <meta name="twitter:image" content="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star">
     
         <link rel="alternative" href="/atom.xml" title="kotlinandroid.net" type="application/atom+xml">
@@ -69,6 +70,17 @@
     <link rel="shortcut icon" href="/img/kotlin.png">
     <link rel="stylesheet" href="/css/style.css?v=1.5.2">
     <script>window.lazyScripts=[]</script>
+
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c16d3c10c9ea6c6fe749d9926d52b0d6";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 </head>
 
 <body>
@@ -252,17 +264,35 @@
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <p><img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;label=Star" alt=""></p>
+            <figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 <p>项目地址： <a href="https://github.com/itgoyo/AndroidSource-Analysis" target="_blank" rel="external">https://github.com/itgoyo/AndroidSource-Analysis</a></p>
 <p>简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。</p>
 <p>本文是基于 <a href="https://github.com/xdtianyu/android-6.0.0_r1" target="_blank" rel="external">Android 6.0.0</a> 和 <a href="https://github.com/xdtianyu/android-msm-hammerhead-3.4-marshmallow" target="_blank" rel="external">kernel 3.4</a> 源码 及 Android SDK 23 展开的</p>
 <h2 id="1-简介"><a href="#1-简介" class="headerlink" title="1. 简介"></a>1. 简介</h2><p>Binder 是一种 Android 进程间通信机制，提供远程过程调用(Remote Procedure Call)功能。我们最直接的使用是调用 <code>Context.getSystemService()</code> 来获取系统服务，或直接使用 <code>AIDL</code> 来实现多个程序(APP)间数据交互。</p>
 <p>Binder 是非常重要的 Android 基础组件，几乎所有的进程间通信都是使用 Binder 机制实现的。本文将结合源码展开讲述 Binder ，同时对一些重要知识点提供扩展阅读的参考。</p>
-<p><img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/android_binder.png" alt="android_binder"></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/android_binder.png" alt="android_binder" title="">
+                </div>
+                <div class="image-caption">android_binder</div>
+            </figure>
 <p>不管是 Android 系统服务(System services)还是用户的应用进程(User apps)，最终都会通过 binder 来实现进程间通信。上层应用首先通过 IBinder 的 transcate 方法发送命令给 libbinder， libbinder 再通过系统调用(ioctl) 发送命令到内核中的 binder 驱动，之后再由驱动完成进程间数据的交互。</p>
 <p>我们经常使用的 Intent，Messager 数据传递也是对 Binder 更高层次的抽象和封装，最终还是会由内核中的 binder 驱动完成数据的传递。</p>
 <h2 id="2-Binder-与-AIDL"><a href="#2-Binder-与-AIDL" class="headerlink" title="2. Binder 与 AIDL"></a>2. Binder 与 AIDL</h2><p>AIDL (Android Interface definition language) 是接口描述语言，用于生成在两个进程间进行通信的代码。先看 AIDL 概念图</p>
-<p><img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/AIDL.png" alt="AIDL概念图"></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/AIDL.png" alt="AIDL概念图" title="">
+                </div>
+                <div class="image-caption">AIDL概念图</div>
+            </figure>
 <ul>
 <li><p>Stub.Proxy 和 Stub 代码由 Android Sdk 自动生成，客户端通过 Stub.Proxy 与远程服务交互。</p>
 </li>
@@ -305,9 +335,21 @@
 <p>利用进程间通信，我们可以实现简单的应用插件功能。关于 AIDL 在实际项目中的应用，可以参考 <a href="https://github.com/xdtianyu/CallerInfo/tree/master/plugin/src/main" target="_blank" rel="external">CallerInfo Plugin</a> 的实现</p>
 <p>从上面分析可以看出， AIDL 的本质是对 Binder 的又一次抽象和封装，实际的进程间通信仍是由 Binder 完成的。</p>
 <h2 id="3-Binder-框架及-Native-层"><a href="#3-Binder-框架及-Native-层" class="headerlink" title="3. Binder 框架及 Native 层"></a>3. Binder 框架及 Native 层</h2><p>Binder机制使本地对象可以像操作当前对象一样调用远程对象，可以使不同的进程间互相通信。Binder 使用 Client/Server 架构，客户端通过服务端代理，经过 Binder 驱动与服务端交互。</p>
-<p><img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/Binder.png" alt="Binder框架图片"></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/Binder.png" alt="Binder框架图片" title="">
+                </div>
+                <div class="image-caption">Binder框架图片</div>
+            </figure>
 <p>Binder 机制实现进程间通信的奥秘在于 kernel 中的 Binder 驱动，将在 <a href="#4-binder-%E9%A9%B1%E5%8A%A8">4. Binder 驱动</a> 小节详细讲述。</p>
-<p><img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/binder_native.png" alt="Binder本地框架图片"></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/binder_native.png" alt="Binder本地框架图片" title="">
+                </div>
+                <div class="image-caption">Binder本地框架图片</div>
+            </figure>
 <p>JNI 的代码位于 <a href="https://github.com/xdtianyu/android-6.0.0_r1/tree/master/frameworks/base/core/jni" target="_blank" rel="external">frameworks/base/core/jni</a> 目录下，主要是 <a href="https://github.com/xdtianyu/android-6.0.0_r1/blob/master/frameworks/base/core/jni/android_util_Binder.cpp" target="_blank" rel="external">android_util_Binder.cpp</a> 文件和头文件 <a href="https://github.com/xdtianyu/android-6.0.0_r1/blob/master/frameworks/base/core/jni/android_util_Binder.h" target="_blank" rel="external">android_util_Binder.h</a></p>
 <p>Binder JNI 代码是 Binder Java 层操作到 Binder Native 层的接口封装，最后会被编译进 <code>libandroid_runtime.so</code> 系统库。</p>
 <p>Binder 本地层的代码在 <a href="https://github.com/xdtianyu/android-6.0.0_r1/tree/master/frameworks/native/libs/binder" target="_blank" rel="external">frameworks/native/libs/binder</a> 目录下， 此目录在 Android 系统编译后会生成 <code>libbinder.so</code> 文件，供 JNI 调用。<code>libbinder</code> 封装了所有对 binder 驱动的操作，是上层应用与驱动交互的桥梁。头文件则在 <a href="https://github.com/xdtianyu/android-6.0.0_r1/tree/master/frameworks/native/include/binder" target="_blank" rel="external">frameworks/native/include/binder</a> 目录下。</p>
@@ -316,7 +358,13 @@
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">sp&lt;IBinder&gt; IInterface::asBinder(<span class="keyword">const</span> IInterface* iface)</div><div class="line">&#123;</div><div class="line">    <span class="keyword">if</span> (iface == <span class="literal">NULL</span>) <span class="keyword">return</span> <span class="literal">NULL</span>;</div><div class="line">    <span class="keyword">return</span> <span class="keyword">const_cast</span>&lt;IInterface*&gt;(iface)-&gt;onAsBinder();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> INTERFACE&gt;</div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">BnInterface</span> :</span> <span class="keyword">public</span> INTERFACE, <span class="keyword">public</span> BBinder</div><div class="line">&#123;</div><div class="line"><span class="keyword">public</span>:</div><div class="line">    <span class="keyword">virtual</span> sp&lt;IInterface&gt;      queryLocalInterface(<span class="keyword">const</span> String16&amp; _descriptor);</div><div class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">const</span> String16&amp;     <span class="title">getInterfaceDescriptor</span><span class="params">()</span> <span class="keyword">const</span></span>;</div><div class="line"></div><div class="line"><span class="keyword">protected</span>:</div><div class="line">    <span class="function"><span class="keyword">virtual</span> IBinder*            <span class="title">onAsBinder</span><span class="params">()</span></span>;</div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="comment">// ----------------------------------------------------------------------</span></div><div class="line"></div><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> INTERFACE&gt;</div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">BpInterface</span> :</span> <span class="keyword">public</span> INTERFACE, <span class="keyword">public</span> BpRefBase</div><div class="line">&#123;</div><div class="line"><span class="keyword">public</span>:</div><div class="line">                                BpInterface(<span class="keyword">const</span> sp&lt;IBinder&gt;&amp; remote);</div><div class="line"></div><div class="line"><span class="keyword">protected</span>:</div><div class="line">    <span class="function"><span class="keyword">virtual</span> IBinder*            <span class="title">onAsBinder</span><span class="params">()</span></span>;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
 <p>其中 <code>BnInterface</code> 是实现Stub功能的模板，扩展BBinder的onTransact()方法实现Binder命令的解析和执行。<code>BpInterface</code> 是实现Proxy功能的模板，BpRefBase里有个mRemote对象指向一个BpBinder对象。</p>
-<h3 id="3-2-Binder-本地层的整个函数-方法调用过程"><a href="#3-2-Binder-本地层的整个函数-方法调用过程" class="headerlink" title="3.2 Binder 本地层的整个函数/方法调用过程"></a>3.2 Binder 本地层的整个函数/方法调用过程</h3><p><img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/binder_native_stack.png" alt="Binder本地函数调用图"></p>
+<h3 id="3-2-Binder-本地层的整个函数-方法调用过程"><a href="#3-2-Binder-本地层的整个函数-方法调用过程" class="headerlink" title="3.2 Binder 本地层的整个函数/方法调用过程"></a>3.2 Binder 本地层的整个函数/方法调用过程</h3><figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/binder_native_stack.png" alt="Binder本地函数调用图" title="">
+                </div>
+                <div class="image-caption">Binder本地函数调用图</div>
+            </figure>
 <p>1. Java 层 <a href="https://github.com/xdtianyu/AidlExample/blob/master/app/build/generated/source/aidl/debug/org/xdty/remoteservice/IRemoteService.java#L147" target="_blank" rel="external">IRemoteService.Stub.Proxy</a> 调用 <a href="https://github.com/xdtianyu/android-6.0.0_r1/blob/master/frameworks/base/core/java/android/os/Binder.java#L501" target="_blank" rel="external">android.os.IBinder (实现在 android.os.Binder.BinderProxy)</a> 的 <code>transact()</code> 发送 <code>Stub.TRANSACTION_addUser</code> 命令。</p>
 <p>2. 由 <a href="https://github.com/xdtianyu/android-6.0.0_r1/blob/master/frameworks/base/core/java/android/os/Binder.java#L507" target="_blank" rel="external">BinderProxy.transact()</a> 进入 native 层。</p>
 <p>3. 由 <a href="https://github.com/xdtianyu/android-6.0.0_r1/blob/master/frameworks/base/core/jni/android_util_Binder.cpp#L1246" target="_blank" rel="external">jni</a> 转到 <a href="https://github.com/xdtianyu/android-6.0.0_r1/blob/master/frameworks/base/core/jni/android_util_Binder.cpp#L1246" target="_blank" rel="external">android_os_BinderProxy_transact()</a> 函数。</p>
@@ -361,7 +409,13 @@
 <p>可以看出，本地层是对应用与 binder 驱动交互的直接封装与实现，最终的数据传输仍是由驱动来完成的。本地层对底层驱动进行了完整的封装，上层应用只关心 transact() 和 onTransact() 回调，察觉不到 binder 驱动的存在，减轻了上层应用进程间通信开发的复杂度。</p>
 <h2 id="4-Binder-驱动"><a href="#4-Binder-驱动" class="headerlink" title="4. Binder 驱动"></a>4. Binder 驱动</h2><p>关于 binder 驱动建议参考另一篇文章 <a href="http://blog.csdn.net/yangwen123/article/details/9316987" target="_blank" rel="external">深入分析Android Binder 驱动</a> <a href="[Android Binder](https://web.archive.org/web/20101016004342/http://www.gmier.com/node/11">原文</a>，本小节仍需要完善。</p>
 <p>Binder 驱动是 Binder 的最终实现， ServiceManager 和 Client/Service 进程间通信最终都是由 Binder 驱动投递的。</p>
-<p><img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/binder_reference.png" alt="Binder reference"></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/binder_reference.png" alt="Binder reference" title="">
+                </div>
+                <div class="image-caption">Binder reference</div>
+            </figure>
 <p>Binder 驱动的代码位于 kernel 代码的 <a href="https://github.com/xdtianyu/android-msm-hammerhead-3.4-marshmallow/tree/master/drivers/staging/android" target="_blank" rel="external">drivers/staging/android</a> 目录下。主文件是 <a href="https://github.com/xdtianyu/android-msm-hammerhead-3.4-marshmallow/blob/master/drivers/staging/android/binder.h" target="_blank" rel="external">binder.h</a> 和 <a href="https://github.com/xdtianyu/android-msm-hammerhead-3.4-marshmallow/blob/master/drivers/staging/android/binder.c" target="_blank" rel="external">binder.c</a></p>
 <p>进程间传输的数据被称为 Binder 对象，它是一个 <a href="https://github.com/xdtianyu/android-msm-hammerhead-3.4-marshmallow/blob/master/drivers/staging/android/binder.h#L49" target="_blank" rel="external">flat_binder_object</a>，结构如下</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">struct</span> <span class="title">flat_binder_object</span> &#123;</span></div><div class="line">    <span class="comment">/* 8 bytes for large_flat_header. */</span></div><div class="line">    <span class="keyword">unsigned</span> <span class="keyword">long</span>       type;</div><div class="line">    <span class="keyword">unsigned</span> <span class="keyword">long</span>       flags;</div><div class="line"></div><div class="line">    <span class="comment">/* 8 bytes of data. */</span></div><div class="line">    <span class="keyword">union</span> &#123;</div><div class="line">        <span class="keyword">void</span>        *binder;    <span class="comment">/* local object */</span></div><div class="line">        <span class="keyword">signed</span> <span class="keyword">long</span> handle;     <span class="comment">/* remote object */</span></div><div class="line">    &#125;;</div><div class="line"></div><div class="line">    <span class="comment">/* extra data associated with local object */</span></div><div class="line">    <span class="keyword">void</span>            *cookie;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
@@ -465,7 +519,13 @@ inflater.inflate(R.layout.view, root, true);
 <p>5. 完善 binder 驱动内容，补充关系图</p>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<p><img src="/arts/kotlin_group.jpg" alt=""></p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/arts/kotlin_group.jpg" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
 
         </div>
 
@@ -642,13 +702,7 @@ inflater.inflate(R.layout.view, root, true);
 </div>
 
         <footer class="footer">
-  var _hmt = _hmt || [];
-  (function() {
-    var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?c16d3c10c9ea6c6fe749d9926d52b0d6";
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(hm, s);
-  })();
+
     <div class="bottom">
   
 <p>
