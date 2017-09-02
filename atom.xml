@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://kotlinandroid.net/"/>
-  <updated>2017-07-29T06:44:15.999Z</updated>
+  <updated>2017-09-02T12:33:57.170Z</updated>
   <id>https://kotlinandroid.net/</id>
   
   <author>
@@ -14,6 +14,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>决策</title>
+    <link href="https://kotlinandroid.net/2017/09/02/%E5%86%B3%E7%AD%96/"/>
+    <id>https://kotlinandroid.net/2017/09/02/决策/</id>
+    <published>2017-09-02T12:16:15.000Z</published>
+    <updated>2017-09-02T12:33:57.170Z</updated>
+    
+    <content type="html"><![CDATA[<p>什么是我们一生中耗时最多、最让人纠结的事?是做出大大小小的决策。</p>
+<p>我们的生活无时无刻的都充满了各种决策，比如午餐我要吃什么，到了商场我要买什么，今天衣服穿什么等等。</p>
+<p>我们时常陷入个人主观感情或者是非理性感情中做出错误的决定，以致于做出让我们后悔终生的判断。</p>
+<p>有一个很有趣的问题“<strong>扎克伯格为什么总是穿同一件衣服？</strong>”</p>
+<p>其实扎克伯格的衣柜里的衣服是这样子的</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="http://omvbl46i3.bkt.clouddn.com/17-9-2/51906861.jpg" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+<p> 而扎克伯格自己的回答则是</p>
+<p> “<strong>我想通过清空我的生活来让我在除了如何更好服务社会这件事情以外的任何事情上都做尽可能少的决策。</strong>”</p>
+<p> 作为一个富豪，扎克伯格不是为了有趣才每天穿同一款式的衣服，他这样做确实是行之有效,每一个决定都会减少我们的意志力“血槽”。<strong>每一个决定都会让我们少一丝创造力、控制力和专注力</strong>。</p>
+<p> 引用以为名人的话</p>
+<blockquote>
+<p>“我们必须尽早将尽可能多且有用的行动变成我们自发的和习以为常的决策……我们通过毫不费力的下意识行为解决的日常细节越多，我们就能解放越多应该用来处理高级事务的精神意志力。”——威廉·詹姆斯</p>
+</blockquote>
+<hr>
+<p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
+<figure class="image-bubble">
+                <div class="img-lightbox">
+                    <div class="overlay"></div>
+                    <img src="/arts/kotlin_group.jpg" alt="" title="">
+                </div>
+                <div class="image-caption"></div>
+            </figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;什么是我们一生中耗时最多、最让人纠结的事?是做出大大小小的决策。&lt;/p&gt;
+&lt;p&gt;我们的生活无时无刻的都充满了各种决策，比如午餐我要吃什么，到了商场我要买什么，今天衣服穿什么等等。&lt;/p&gt;
+&lt;p&gt;我们时常陷入个人主观感情或者是非理性感情中做出错误的决定，以致于做出让我们后悔终
+    
+    </summary>
+    
+      <category term="生活随笔" scheme="https://kotlinandroid.net/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="生活随笔" scheme="https://kotlinandroid.net/tags/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>Android开发工具大全</title>
