@@ -227,14 +227,13 @@ var _hmt = _hmt || [];
 
 <div class="container body-wrap">
     
-
 <article id="post-决策"
   class="post-article article-type-post fade" itemprop="blogPost">
 
     <div class="post-card">
         <h1 class="post-card-title">决策</h1>
         <div class="post-meta">
-            <time class="post-time" title="2017年09月02日 20:16" datetime="2017-09-02T12:16:15.000Z"  itemprop="datePublished">2017-09-02</time>
+            <time class="post-time" title="2017-09-02 20:16:15" datetime="2017-09-02T12:16:15.000Z"  itemprop="datePublished">2017-09-02</time>
 
             
 	<ul class="article-category-list"><li class="article-category-list-item"><a class="article-category-list-link" href="/categories/生活随笔/">生活随笔</a></li></ul>
@@ -286,18 +285,17 @@ var _hmt = _hmt || [];
     <div class="content">
         
 <span class="post-time">
-    最后更新时间：<time datetime="2017-09-02T13:09:57.524Z" itemprop="dateUpdated">2017年9月2日 21:09</time>
+    Last updated: <time datetime="2017-09-02T13:09:57.524Z" itemprop="dateUpdated">2017-09-02 21:09:57</time>
 </span><br>
 
 
         
-        转载请注明出处：<a href="/2017/09/02/决策/ " target="_blank" rel="external">https://kotlinandroid.net/2017/09/02/决策/</a>
-        
     </div>
     <footer>
-        <div>
-          
-        </div>
+        <a href="https://kotlinandroid.net">
+            <img src="/img/kotlin_250x250.jpg" alt="itgoyo">
+            itgoyo
+        </a>
     </footer>
 </blockquote>
 
@@ -390,8 +388,6 @@ var _hmt = _hmt || [];
     
 
 
-
-
 <section class="comments" id="comments">
     <div id="disqus_thread"></div>
     <script>
@@ -407,18 +403,25 @@ var _hmt = _hmt || [];
 
 
 
-<div class="comments" id="comments">
-<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
-</div>
-<script>
-    var cloudTieConfig = {
-        url: document.location.href,
-        sourceId: "",
-        productKey: "0263eabe3b1b46709556eda1c39750be",
-        target: "cloud-tie-wrapper"
-    };
-</script>
-<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+
+
+
+<section class="comments" id="comments">
+    <div id="gitment_thread"></div>
+    <link rel="stylesheet" href="//unpkg.com/gitment/style/default.css">
+    <script src="//unpkg.com/gitment/dist/gitment.browser.js"></script>
+    <script>
+        var gitment = new Gitment({
+            owner: 'itgoyo',
+            repo: 'comments',
+            oauth: {
+                client_id: 'Iv1.a04d0957aa03c066',
+                client_secret: '9f3bc8d34147f337239aa74ee48e7f37f9ddf0bd',
+            },
+        })
+        gitment.render('comments')
+    </script>
+</section>
 
 
 
@@ -432,22 +435,23 @@ var _hmt = _hmt || [];
         奖励一杯咖啡!
         <i class="icon icon-quote-right"></i>
     </h3>
-    <ul class="reward-items">
+    <div class="reward-content">
         
+        <div class="reward-code">
+            <img id="rewardCode" src="/assets/img/wechat.jpg" alt="打赏二维码">
+        </div>
         
-        <li>
-            <img src="/assets/img/wechat.jpg" title="微信打赏二维码" alt="微信打赏二维码">
-            <p>微信</p>
-        </li>
+        <label class="reward-toggle">
+            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
+                data-wechat="/assets/img/wechat.jpg" data-alipay="/assets/img/alipay.jpg">
+            <div class="reward-toggle-ctrol">
+                <span class="reward-toggle-item wechat">微信</span>
+                <span class="reward-toggle-label"></span>
+                <span class="reward-toggle-item alipay">支付宝</span>
+            </div>
+        </label>
         
-
-        
-        <li>
-            <img src="/assets/img/alipay.jpg" title="支付宝打赏二维码" alt="支付宝打赏二维码">
-            <p>支付宝</p>
-        </li>
-        
-    </ul>
+    </div>
 </div>
 
 
