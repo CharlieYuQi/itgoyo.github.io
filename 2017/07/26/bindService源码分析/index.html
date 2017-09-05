@@ -44,20 +44,20 @@
     
     
     <meta name="keywords" content="Android">
-    <meta name="description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 b">
+    <meta name="description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 bindService 源码分析 【进行中】简介客户端通过 ContextWrapper.bindService() 方法来绑定服务，本地对 bindService 的过程进行源码分析。 整体时序图  源码分析1.">
 <meta name="keywords" content="Android">
 <meta property="og:type" content="article">
 <meta property="og:title" content="bindService源码分析">
 <meta property="og:url" content="https://kotlinandroid.net/2017/07/26/bindService源码分析/index.html">
 <meta property="og:site_name" content="kotlinandroid.net">
-<meta property="og:description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 b">
+<meta property="og:description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 bindService 源码分析 【进行中】简介客户端通过 ContextWrapper.bindService() 方法来绑定服务，本地对 bindService 的过程进行源码分析。 整体时序图  源码分析1.">
 <meta property="og:image" content="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star">
 <meta property="og:image" content="https://github.com/xxx">
 <meta property="og:image" content="https://kotlinandroid.net/arts/kotlin_group.jpg">
 <meta property="og:updated_time" content="2017-07-26T11:52:07.551Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="bindService源码分析">
-<meta name="twitter:description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 b">
+<meta name="twitter:description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 bindService 源码分析 【进行中】简介客户端通过 ContextWrapper.bindService() 方法来绑定服务，本地对 bindService 的过程进行源码分析。 整体时序图  源码分析1.">
 <meta name="twitter:image" content="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star">
     
         <link rel="alternative" href="/atom.xml" title="kotlinandroid.net" type="application/atom+xml">
@@ -258,24 +258,12 @@ var _hmt = _hmt || [];
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+            <p><img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;label=Star" alt=""></p>
 <p>项目地址： <a href="https://github.com/itgoyo/AndroidSource-Analysis" target="_blank" rel="external">https://github.com/itgoyo/AndroidSource-Analysis</a></p>
 <p>简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。</p>
 <h1 id="bindService-源码分析-【进行中】"><a href="#bindService-源码分析-【进行中】" class="headerlink" title="bindService 源码分析 【进行中】"></a>bindService 源码分析 【进行中】</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>客户端通过 ContextWrapper.bindService() 方法来绑定服务，本地对 bindService 的过程进行源码分析。</p>
 <p><strong>整体时序图</strong></p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://github.com/xxx" alt="bindService 时序图" title="">
-                </div>
-                <div class="image-caption">bindService 时序图</div>
-            </figure>
+<p><img src="https://github.com/xxx" alt="bindService 时序图"></p>
 <h2 id="源码分析"><a href="#源码分析" class="headerlink" title="源码分析"></a>源码分析</h2><p>1. 客户端调用 <a href="https://github.com/xdtianyu/AidlExample/blob/master/app/src/main/java/org/xdty/aidlexample/MainActivity.java#L45" target="_blank" rel="external">bindService()</a> 绑定服务</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// MainActivity.java</span></div><div class="line"><span class="meta">@Override</span></div><div class="line"><span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">onCreate</span><span class="params">(Bundle savedInstanceState)</span> </span>&#123;</div><div class="line">    <span class="keyword">super</span>.onCreate(savedInstanceState);</div><div class="line">    setContentView(R.layout.activity_main);</div><div class="line"></div><div class="line">    Intent intent = <span class="keyword">new</span> Intent().setComponent(<span class="keyword">new</span> ComponentName(</div><div class="line">            <span class="string">"org.xdty.remoteservice"</span>,</div><div class="line">            <span class="string">"org.xdty.remoteservice.RemoteService"</span>));</div><div class="line">    bindService(intent, mConnection, Context.BIND_AUTO_CREATE);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p><code>Activity.bindService()</code> 最终调用的是 <a href="https://github.com/xdtianyu/android-6.0.0_r1/blob/master/frameworks/base/core/java/android/app/ContextImpl.java#L1283" target="_blank" rel="external">ContextImpl.bindService()</a> 方法</p>
@@ -313,13 +301,7 @@ var _hmt = _hmt || [];
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="http://blog.csdn.net/luoshengyang/article/details/6745181" target="_blank" rel="external">Android应用程序绑定服务（bindService）的过程源代码分析</a></p>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 
         </div>
 
@@ -455,7 +437,7 @@ var _hmt = _hmt || [];
     <script>
         var gitment = new Gitment({
             owner: 'itgoyo',
-            repo: 'comments',
+            repo: 'itgoyo.github.io',
             oauth: {
                 client_id: 'Iv1.a04d0957aa03c066',
                 client_secret: '9f3bc8d34147f337239aa74ee48e7f37f9ddf0bd',

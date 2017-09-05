@@ -44,20 +44,20 @@
     
     
     <meta name="keywords" content="Android">
-    <meta name="description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 背">
+    <meta name="description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 背景FloatingActionButton（下文以fab代替）是android support design组件库中提供的一个视图控件，是material design设计中fab的官方实现。 此控件的官方介绍如">
 <meta name="keywords" content="Android">
 <meta property="og:type" content="article">
 <meta property="og:title" content="FloatingActionButton源码解析">
 <meta property="og:url" content="https://kotlinandroid.net/2017/07/26/FloatingActionButton源码解析/index.html">
 <meta property="og:site_name" content="kotlinandroid.net">
-<meta property="og:description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 背">
+<meta property="og:description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 背景FloatingActionButton（下文以fab代替）是android support design组件库中提供的一个视图控件，是material design设计中fab的官方实现。 此控件的官方介绍如">
 <meta property="og:image" content="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star">
 <meta property="og:image" content="https://kotlinandroid.net/2017/07/26/FloatingActionButton源码解析/01.png">
 <meta property="og:image" content="https://kotlinandroid.net/arts/kotlin_group.jpg">
 <meta property="og:updated_time" content="2017-07-26T11:57:13.408Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="FloatingActionButton源码解析">
-<meta name="twitter:description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 背">
+<meta name="twitter:description" content="项目地址： https://github.com/itgoyo/AndroidSource-Analysis 简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。 背景FloatingActionButton（下文以fab代替）是android support design组件库中提供的一个视图控件，是material design设计中fab的官方实现。 此控件的官方介绍如">
 <meta name="twitter:image" content="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star">
     
         <link rel="alternative" href="/atom.xml" title="kotlinandroid.net" type="application/atom+xml">
@@ -258,13 +258,7 @@ var _hmt = _hmt || [];
 
         </div>
         <div class="post-content" id="post-content" itemprop="postContent">
-            <figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+            <p><img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;label=Star" alt=""></p>
 <p>项目地址： <a href="https://github.com/itgoyo/AndroidSource-Analysis" target="_blank" rel="external">https://github.com/itgoyo/AndroidSource-Analysis</a></p>
 <p>简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。</p>
 <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>FloatingActionButton（下文以fab代替）是android support design组件库中提供的一个视图控件，是material design设计中fab的官方实现。</p>
@@ -281,13 +275,7 @@ var _hmt = _hmt || [];
 <p><a href="http://android-developers.blogspot.hk/2015/05/android-design-support-library.html" target="_blank" rel="external">http://android-developers.blogspot.hk/2015/05/android-design-support-library.html</a></p>
 </blockquote>
 <h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>源码版本:23.3.0</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="./01.png" alt="类图" title="">
-                </div>
-                <div class="image-caption">类图</div>
-            </figure>
+<p><img src="./01.png" alt="类图"></p>
 <p>fab间接继承自<code>ImageView</code>（<code>ImageButton</code>是<code>ImageView</code>的子类），因而拥有<code>ImageView</code>的大部分特性。但是其内部还是做了很多定制，我们一一来看。</p>
 <h3 id="1-fab的自定义属性、背景着色相关"><a href="#1-fab的自定义属性、背景着色相关" class="headerlink" title="1. fab的自定义属性、背景着色相关"></a>1. fab的自定义属性、背景着色相关</h3><p>从构造器开始：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="title">FloatingActionButton</span><span class="params">(Context context, AttributeSet attrs, <span class="keyword">int</span> defStyleAttr)</span> </span>&#123;</div><div class="line">        <span class="keyword">super</span>(context, attrs, defStyleAttr);</div><div class="line">		 <span class="comment">//检查是否使用Theme.Appcompat主题</span></div><div class="line">        ThemeUtils.checkAppCompatTheme(context);</div><div class="line">        <span class="comment">//拿到自定义属性并赋值</span></div><div class="line">        TypedArray a = context.obtainStyledAttributes(attrs,</div><div class="line">                R.styleable.FloatingActionButton, defStyleAttr,</div><div class="line">                R.style.Widget_Design_FloatingActionButton);</div><div class="line">       ...</div><div class="line">        a.recycle();</div><div class="line"></div><div class="line"></div><div class="line">        <span class="keyword">final</span> <span class="keyword">int</span> maxImageSize = (<span class="keyword">int</span>) getResources().getDimension(R.dimen.design_fab_image_size);</div><div class="line">        mImagePadding = (getSizeDimension() - maxImageSize) / <span class="number">2</span>;</div><div class="line"></div><div class="line">		<span class="comment">//背景着色</span></div><div class="line">        getImpl().setBackgroundDrawable(mBackgroundTint, mBackgroundTintMode,</div><div class="line">                mRippleColor, mBorderWidth);</div><div class="line">      <span class="comment">//绘制阴影</span></div><div class="line">        getImpl().setElevation(elevation);</div><div class="line">		...</div><div class="line">    &#125;</div></pre></td></tr></table></figure>
@@ -373,13 +361,7 @@ var _hmt = _hmt || [];
 <h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">The MIT License (MIT)</div><div class="line"></div><div class="line">Copyright (c) 2016 Rowandjj</div><div class="line"></div><div class="line">Permission is hereby granted, free of charge, to any person obtaining a copy</div><div class="line">of this software and associated documentation files (the &quot;Software&quot;), to deal</div><div class="line">in the Software without restriction, including without limitation the rights</div><div class="line">to use, copy, modify, merge, publish, distribute, sublicense, and/or sell</div><div class="line">copies of the Software, and to permit persons to whom the Software is</div><div class="line">furnished to do so, subject to the following conditions:</div><div class="line"></div><div class="line">The above copyright notice and this permission notice shall be included in all</div><div class="line">copies or substantial portions of the Software.</div><div class="line"></div><div class="line">THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR</div><div class="line">IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</div><div class="line">FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE</div><div class="line">AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER</div><div class="line">LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,</div><div class="line">OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE</div><div class="line">SOFTWARE.</div></pre></td></tr></table></figure>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 
         </div>
 
@@ -515,7 +497,7 @@ var _hmt = _hmt || [];
     <script>
         var gitment = new Gitment({
             owner: 'itgoyo',
-            repo: 'comments',
+            repo: 'itgoyo.github.io',
             oauth: {
                 client_id: 'Iv1.a04d0957aa03c066',
                 client_secret: '9f3bc8d34147f337239aa74ee48e7f37f9ddf0bd',

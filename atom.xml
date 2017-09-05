@@ -23,41 +23,22 @@
     <updated>2017-09-03T02:05:29.622Z</updated>
     
     <content type="html"><![CDATA[<p>sublime text3刚安装完成之后打开文件夹显示的样式如下</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://omvbl46i3.bkt.clouddn.com/17-9-3/38900987.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://omvbl46i3.bkt.clouddn.com/17-9-3/38900987.jpg" alt=""></p>
 <p>这样子看起来眼睛会很难受,那么我们怎样才能使得引导菜单的颜色和编辑器底色一样呢?</p>
 <p>解决方法如下:</p>
 <p>Ctrl+Shift+P -&gt; install -&gt; 搜索安装包SyncedSidebarBg，自动同步侧边栏底色为编辑窗口底色。<br>PS：有时改完后侧边栏颜色没变化，不知什么原因，打开包控制，然后列一下已安装包就刷新了。</p>
 <p>安装完成之后,效果是这样子的:</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://omvbl46i3.bkt.clouddn.com/17-9-3/5379561.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://omvbl46i3.bkt.clouddn.com/17-9-3/5379561.jpg" alt=""></p>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;sublime text3刚安装完成之后打开文件夹显示的样式如下&lt;/p&gt;
-&lt;figure class=&quot;image-bubble&quot;&gt;
-                &lt;div class=&quot;img-lightbox&quot;&gt;
-                    &lt;div cl
+&lt;p&gt;&lt;img src=&quot;http://omvbl46i3.bkt.clouddn.com/17-9-3/38900987.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这样子看起来眼睛会很难受,那么我们怎
     
     </summary>
     
@@ -77,23 +58,11 @@
     
     <content type="html"><![CDATA[<p>不知道大家对Ubuntu自带的主题效果怎么看，反正我自己觉得自带的主题看起来挺难受的，所以网上找了许多法子，终于把主题美化成自己喜欢的样子。</p>
 <p>Flatabulous: 一个超好看的扁平化 Ubuntu 桌面主题</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://omvbl46i3.bkt.clouddn.com/17-9-3/16411938.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://omvbl46i3.bkt.clouddn.com/17-9-3/16411938.jpg" alt=""></p>
 <p>安装此主题步骤：</p>
 <h4 id="一、TweeakTool"><a href="#一、TweeakTool" class="headerlink" title="一、TweeakTool"></a>一、TweeakTool</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo add-apt-repository ppa:tualatrix/ppa  </div><div class="line">sudo apt-get update</div><div class="line">sudo apt-get install ubuntu-tweak</div></pre></td></tr></table></figure>
 <p>该工具是用来设置各种Ubuntu偏好使用的</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://omvbl46i3.bkt.clouddn.com/17-9-3/47946394.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://omvbl46i3.bkt.clouddn.com/17-9-3/47946394.jpg" alt=""></p>
 <h4 id="二、安装Flatabulous"><a href="#二、安装Flatabulous" class="headerlink" title="二、安装Flatabulous"></a>二、安装Flatabulous</h4><p><a href="https://github.com/anmoljagetia/Flatabulous/archive/master.zip" target="_blank" rel="external">下载地址</a><br>或者直接在Github上 Clone下来<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">https://github.com/anmoljagetia/Flatabulous</div></pre></td></tr></table></figure></p>
 <p>把下载下来的zip包解压，移动到/usr/share/themes/下</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo mv Flatabulous-master /usr/share/themes/</div></pre></td></tr></table></figure>
@@ -102,37 +71,19 @@
 <h4 id="注意，在Ubuntu15-04会提示找不到ultra-flat-icons这个包"><a href="#注意，在Ubuntu15-04会提示找不到ultra-flat-icons这个包" class="headerlink" title="注意，在Ubuntu15.04会提示找不到ultra-flat-icons这个包"></a>注意，在Ubuntu15.04会提示找不到ultra-flat-icons这个包</h4><p>解决方法：在软件和更新中把ultra-flat-icons源中的vivid改成trusty，即可安装成功，最后记得改回来过</p>
 <p>或者你也可以运行sudo apt-get install ultra-flat-icons-orange或者 sudo apt-get install ultra-flat-icons-green</p>
 <p>根据你自己喜欢的颜色选择。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://omvbl46i3.bkt.clouddn.com/17-9-3/90967736.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://omvbl46i3.bkt.clouddn.com/17-9-3/90967736.jpg" alt=""></p>
 <p>最后完成以上设置的效果图</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://omvbl46i3.bkt.clouddn.com/17-9-3/47946394.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://omvbl46i3.bkt.clouddn.com/17-9-3/47946394.jpg" alt=""></p>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;不知道大家对Ubuntu自带的主题效果怎么看，反正我自己觉得自带的主题看起来挺难受的，所以网上找了许多法子，终于把主题美化成自己喜欢的样子。&lt;/p&gt;
 &lt;p&gt;Flatabulous: 一个超好看的扁平化 Ubuntu 桌面主题&lt;/p&gt;
-&lt;figure class=&quot;image
+&lt;p&gt;&lt;img src=&quot;http://
     
     </summary>
     
@@ -155,13 +106,7 @@
 <p>我们时常陷入个人主观感情或者是非理性感情中做出错误的决定，以致于做出让我们后悔终生的判断。</p>
 <p>有一个很有趣的问题“<strong>扎克伯格为什么总是穿同一件衣服？</strong>”</p>
 <p>其实扎克伯格的衣柜里的衣服是这样子的</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://omvbl46i3.bkt.clouddn.com/17-9-2/51906861.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://omvbl46i3.bkt.clouddn.com/17-9-2/51906861.jpg" alt=""></p>
 <p> 而扎克伯格自己的回答则是</p>
 <p> “<strong>我想通过清空我的生活来让我在除了如何更好服务社会这件事情以外的任何事情上都做尽可能少的决策。</strong>”</p>
 <p> 作为一个富豪，扎克伯格不是为了有趣才每天穿同一款式的衣服，他这样做确实是行之有效,每一个决定都会减少我们的意志力“血槽”。<strong>每一个决定都会让我们少一丝创造力、控制力和专注力</strong>。</p>
@@ -171,13 +116,7 @@
 </blockquote>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
@@ -202,13 +141,7 @@
     <published>2017-07-29T06:35:32.000Z</published>
     <updated>2017-07-29T06:44:15.999Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="AndroidDevTools"><a href="#AndroidDevTools" class="headerlink" title="AndroidDevTools"></a>AndroidDevTools</h1><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://badges.gitter.im/Join%20Chat.svg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+    <content type="html"><![CDATA[<h1 id="AndroidDevTools"><a href="#AndroidDevTools" class="headerlink" title="AndroidDevTools"></a>AndroidDevTools</h1><p><img src="https://badges.gitter.im/Join%20Chat.svg" alt=""></p>
 <p><strong>Android Dev Tools官网地址：<a href="http://www.androiddevtools.cn" target="_blank" rel="external">www.androiddevtools.cn</a></strong></p>
 <p>收集整理Android开发所需的Android SDK、开发中用到的工具、Android开发教程、Android设计规范，免费的设计素材等。</p>
 <p>欢迎大家推荐自己在Android开发过程中用的好用的工具、学习开发教程、用到设计素材，欢迎Star、Fork 😄。</p>
@@ -263,13 +196,7 @@
 <li><p>依次选择『<strong>Packages</strong>』、『<strong>Reload</strong>』。</p>
 </li>
 </ol>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://omvbl46i3.bkt.clouddn.com/17-7-29/26741829.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://omvbl46i3.bkt.clouddn.com/17-7-29/26741829.jpg" alt=""></p>
 <h4 id="Android-Studio"><a href="#Android-Studio" class="headerlink" title="Android Studio"></a>Android Studio</h4><blockquote style="color: gray"><br>                        <strong style="color: red">注意:</strong>以下 Android Studio 下载链接全是 <code>dl.google.com</code> 开头的官方下载，无需tizi，<strong style="color: red">建议用浏览器直接从官方原始链接下载，不要用迅雷下载、不要用迅雷下载、不要用迅雷下载</strong>，重要的事情说三遍，避免类似<a href="https://www.zhihu.com/question/35721299" target="_blank" rel="external">XCodeGhost</a>的事件！！！<br>                    </blockquote>
 
 <table>
@@ -3157,18 +3084,12 @@
 <pre><code>版权归原作者所有，这里仅做收集整理，欢迎自由转载-非商用-非衍生-保持署名和链接。
 </code></pre><hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;AndroidDevTools&quot;&gt;&lt;a href=&quot;#AndroidDevTools&quot; class=&quot;headerlink&quot; title=&quot;AndroidDevTools&quot;&gt;&lt;/a&gt;AndroidDevTools&lt;/h1&gt;&lt;figure class=&quot;image-
+      &lt;h1 id=&quot;AndroidDevTools&quot;&gt;&lt;a href=&quot;#AndroidDevTools&quot; class=&quot;headerlink&quot; title=&quot;AndroidDevTools&quot;&gt;&lt;/a&gt;AndroidDevTools&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://
     
     </summary>
     
@@ -3186,13 +3107,7 @@
     <published>2017-07-26T12:09:45.000Z</published>
     <updated>2017-07-26T14:05:15.410Z</updated>
     
-    <content type="html"><![CDATA[<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+    <content type="html"><![CDATA[<p><img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;label=Star" alt=""></p>
 <p>项目地址： <a href="https://github.com/itgoyo/AndroidSource-Analysis" target="_blank" rel="external">https://github.com/itgoyo/AndroidSource-Analysis</a></p>
 <p>简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。</p>
 <h2 id="你真的了解AsyncTask"><a href="#你真的了解AsyncTask" class="headerlink" title="你真的了解AsyncTask?"></a>你真的了解AsyncTask?</h2><p>虽说现在做网络请求有了Volley全家桶和OkHttp这样好用的库，但是在处理其他后台任务以及与UI交互上，还是需要用到AsyncTask。但是你真的了解AsyncTask吗？</p>
@@ -3228,13 +3143,7 @@
 <li>这个线程池是一个静态变量；那么在同一个进程之内，所有地方使用到的AsyncTask默认构造函数构造出来的AsyncTask都使用的是同一个线程池，如果App模块比较多并且不加控制的话，很容易满足第一条的崩溃条件；如果你不幸在不同的AsyncTask的doInBackgroud里面访问了共享资源，那么就会发生各种并发编程问题。</li>
 <li>在AsyncTask全部执行完毕之后，进程中还是会常驻corePoolSize个线程；在Android 4.4 （API 19）以下，这个corePoolSize是hardcode的，数值是5；API 19改成了<code>cpu + 1</code>；也就是说，在Android 4.4以前；如果你执行了超过五个AsyncTask；然后啥也不干了，进程中还是会有5个AsyncTask线程；不信，你看：</li>
 </ol>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/images/asynctask.png" alt="img" title="">
-                </div>
-                <div class="image-caption">img</div>
-            </figure>
+<p><img src="/images/asynctask.png" alt="img"></p>
 <h3 id="Handler"><a href="#Handler" class="headerlink" title="Handler"></a>Handler</h3><p>AsyncTask里面的handler很简单，如下（API 22代码）：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> InternalHandler sHandler = <span class="keyword">new</span> InternalHandler();</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="title">InternalHandler</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="keyword">super</span>(Looper.getMainLooper());</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>注意，这里直接用的主线程的Looper；如果去看API 22以下的代码，会发现它没有这个构造函数，而是使用默认的；默认情况下，Handler会使用当前线程的Looper，如果你的AsyncTask是在子线程创建的，那么很不幸，你的<code>onPreExecute</code>和<code>onPostExecute</code>并非在UI线程执行，而是被Handler post到创建它的那个线程执行；如果你在这两个线程更新了UI，那么直接导致崩溃。这也是大家口口相传的<strong>AsyncTask必须在主线程创建</strong>的原因。</p>
@@ -3272,21 +3181,13 @@
 </blockquote>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;figure class=&quot;image-bubble&quot;&gt;
-                &lt;div class=&quot;img-lightbox&quot;&gt;
-                    &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
-                   
+      &lt;p&gt;&lt;img src=&quot;https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;amp;label=Star&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;项目地址： &lt;a href
     
     </summary>
     
@@ -3304,13 +3205,7 @@
     <published>2017-07-26T12:08:18.000Z</published>
     <updated>2017-07-26T12:08:39.221Z</updated>
     
-    <content type="html"><![CDATA[<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+    <content type="html"><![CDATA[<p><img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;label=Star" alt=""></p>
 <p>项目地址： <a href="https://github.com/itgoyo/AndroidSource-Analysis" target="_blank" rel="external">https://github.com/itgoyo/AndroidSource-Analysis</a></p>
 <p>简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。</p>
 <h2 id="ViewDragHelper源码解析"><a href="#ViewDragHelper源码解析" class="headerlink" title="ViewDragHelper源码解析"></a>ViewDragHelper源码解析</h2><h3 id="1-简介"><a href="#1-简介" class="headerlink" title="1. 简介"></a>1. 简介</h3><p>我们了解了<code>ViewDragHelper</code>是可以帮助我们处理各种拖拽事件的类.使用好<code>ViewDragHelper</code>能帮助我们做出各种酷炫的交互,今天我们就来分析一下<code>ViewDragHelper</code>的使用与实现</p>
@@ -3368,21 +3263,13 @@
 <h3 id="6-个人评价"><a href="#6-个人评价" class="headerlink" title="6. 个人评价"></a>6. 个人评价</h3><p><code>ViewDragHelper</code>的出现,大大简化了我们开发相关触摸和拖拽功能的复杂度和代码量,帮助我们比较容易的实现各种效果,让我们开发酷炫的交互更加容易了。但是从一些开源项目中发现,<code>ViewDragHelper</code>中还是有一些不足之处,比如给<code>Scroller</code>提供了一个固定的<code>Interpolator</code>,导致如果我们想实现例如反弹效果的话,还要把<code>ViewDragHelper</code>的代码拷贝一份并修改<code>Interpolator</code>,这样做肯定是不太好的.当然建议我们自己修改一个<code>ViewDragHelper</code>后如果项目里有多处使用,可以包装成一个提供给我们自己项目的模块使用,防止出现更多的多余代码</p>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;figure class=&quot;image-bubble&quot;&gt;
-                &lt;div class=&quot;img-lightbox&quot;&gt;
-                    &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
-                   
+      &lt;p&gt;&lt;img src=&quot;https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;amp;label=Star&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;项目地址： &lt;a href
     
     </summary>
     
@@ -3400,13 +3287,7 @@
     <published>2017-07-26T12:07:19.000Z</published>
     <updated>2017-07-26T12:07:37.007Z</updated>
     
-    <content type="html"><![CDATA[<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+    <content type="html"><![CDATA[<p><img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;label=Star" alt=""></p>
 <p>项目地址： <a href="https://github.com/itgoyo/AndroidSource-Analysis" target="_blank" rel="external">https://github.com/itgoyo/AndroidSource-Analysis</a></p>
 <p>简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。</p>
 <h1 id="TextView源码解析"><a href="#TextView源码解析" class="headerlink" title="TextView源码解析"></a>TextView源码解析</h1><h2 id="1-简介"><a href="#1-简介" class="headerlink" title="1.简介"></a>1.简介</h2><blockquote>
@@ -3464,21 +3345,13 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
 <h2 id="8-总结"><a href="#8-总结" class="headerlink" title="8.总结"></a>8.总结</h2><p>一个展示文本+文本编辑器功能的控件需要做的事情很多，要对文本进行排版、处理不同的段落风格、处理段落内的不同emoji和span、进行折行计算，然后还需要做文本编辑、文本选择等。而TextView把这些事情明确分工给不同的类。这样不仅仅把复杂问题拆分成了一个个简单的小功能，同时也大大增加了可扩展性。</p>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;figure class=&quot;image-bubble&quot;&gt;
-                &lt;div class=&quot;img-lightbox&quot;&gt;
-                    &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
-                   
+      &lt;p&gt;&lt;img src=&quot;https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;amp;label=Star&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;项目地址： &lt;a href
     
     </summary>
     
@@ -3496,13 +3369,7 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
     <published>2017-07-26T12:06:13.000Z</published>
     <updated>2017-07-26T12:06:32.545Z</updated>
     
-    <content type="html"><![CDATA[<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+    <content type="html"><![CDATA[<p><img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;label=Star" alt=""></p>
 <p>项目地址： <a href="https://github.com/itgoyo/AndroidSource-Analysis" target="_blank" rel="external">https://github.com/itgoyo/AndroidSource-Analysis</a></p>
 <p>简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。</p>
 <h1 id="TabLayout-源码解析"><a href="#TabLayout-源码解析" class="headerlink" title="TabLayout 源码解析"></a>TabLayout 源码解析</h1><h2 id="1-功能介绍"><a href="#1-功能介绍" class="headerlink" title="1. 功能介绍"></a>1. 功能介绍</h2><h3 id="1-1-TabLayout"><a href="#1-1-TabLayout" class="headerlink" title="1.1 TabLayout"></a>1.1 TabLayout</h3><p>Tabs跟随Actionbar在Android 3.0进入大家的视线，是一个很经典的设计。它也是Material Design 规范中提及的<code>Component</code>之一。Tabs or Bottom navigation？相信不少Android开发者与产品都撕过，就连微信在其中也有过抉择。Google在Google+以及Google Photo中相继采用Bottom navigation的设计把剧情推到向高潮，一度轰动整个社区。Google继而在Material Design 规范加入了Bottom navigation，表明了态度，也给这起争论画上了圆满的句号。</p>
@@ -3529,13 +3396,7 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
 <li><p><code>Gravity</code>是<code>TabView</code>在<code>SlidingTabStrip</code>中layout方式的描述。分为：GRAVITY_FILL，GRAVITY_CENTER.</p>
 </li>
 </ul>
-<h2 id="3-详细设计"><a href="#3-详细设计" class="headerlink" title="3. 详细设计"></a>3. 详细设计</h2><h3 id="3-1-类关系图"><a href="#3-1-类关系图" class="headerlink" title="3.1 类关系图"></a>3.1 类关系图</h3><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="../assets/tablayout.png" alt="TabLayout" title="">
-                </div>
-                <div class="image-caption">TabLayout</div>
-            </figure>
+<h2 id="3-详细设计"><a href="#3-详细设计" class="headerlink" title="3. 详细设计"></a>3. 详细设计</h2><h3 id="3-1-类关系图"><a href="#3-1-类关系图" class="headerlink" title="3.1 类关系图"></a>3.1 类关系图</h3><p><img src="../assets/tablayout.png" alt="TabLayout"></p>
 <h3 id="3-2-分析"><a href="#3-2-分析" class="headerlink" title="3.2 分析"></a>3.2 分析</h3><h4 id="3-2-1-TabLayout子View唯一性保证"><a href="#3-2-1-TabLayout子View唯一性保证" class="headerlink" title="3.2.1 TabLayout子View唯一性保证"></a>3.2.1 TabLayout子View唯一性保证</h4><p>前面介绍<code>TabLayout</code>继承于<code>HorizontalScrollView</code>最多只能有1个子View. 但<code>TabLayout</code>可以在layout中添加多个子View节点. 这是怎么回事呢？<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">android.support.design.widget.TabLayout</span></span></div><div class="line">    <span class="attr">android:layout_height</span>=<span class="string">"wrap_content"</span></div><div class="line">    <span class="attr">android:layout_width</span>=<span class="string">"match_parent"</span>&gt;</div><div class="line"></div><div class="line">    <span class="tag">&lt;<span class="name">android.support.design.widget.TabItem</span></span></div><div class="line">        <span class="attr">android:text</span>=<span class="string">"@string/tab_text"</span>/&gt;</div><div class="line"></div><div class="line">    <span class="tag">&lt;<span class="name">android.support.design.widget.TabItem</span></span></div><div class="line">        <span class="attr">android:icon</span>=<span class="string">"@drawable/ic_android"</span>/&gt;</div><div class="line"></div><div class="line"><span class="tag">&lt;/<span class="name">android.support.design.widget.TabLayout</span>&gt;</span></div></pre></td></tr></table></figure></p>
 <p>看过<code>LayoutInflater</code>源码的同学可能会知道这个过程：先inflate到生成View对象，再调用<code>ViewGroup#addView(...)</code>系列方法把view添加到ViewGroup中。我们发现TabLayout的<code>addView(...)</code>系列方法，都删去super调用，且调用了共同的一个方法，<code>addViewInternal(View view)</code>。</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">private void addViewInternal(final View child) &#123;</div><div class="line">    if (child instanceof TabItem) &#123;</div><div class="line">        addTabFromItemView((TabItem) child);</div><div class="line">    &#125; else &#123;</div><div class="line">        throw new IllegalArgumentException("Only TabItem instances can be added to TabLayout");</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -3543,13 +3404,7 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
 <p>这里调<code>newTab()</code>方法创建了一个tab对象，并且用对象池把创建的tab对象缓存起来。然后将<code>TabItem</code>对象的属性都赋值给tab对象。在<code>createTabView(Tab tab)</code>这个方法中，首先从<code>TabView</code>池中获取<code>TabView</code>对象，如果不存在，则实例化一个对象，并调用<code>tabView.setTab(tab)</code>方法来进行了数据绑定。 <code>addTab(...)</code>有三个重载方法，最终都会调用如下方法：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">addTab</span><span class="params">(@NonNull Tab tab, <span class="keyword">boolean</span> setSelected)</span> </span>&#123;</div><div class="line">    <span class="keyword">if</span> (tab.mParent != <span class="keyword">this</span>) &#123;</div><div class="line">        <span class="keyword">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="string">"Tab belongs to a different TabLayout."</span>);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    addTabView(tab, setSelected);</div><div class="line">    configureTab(tab, mTabs.size());</div><div class="line">    <span class="keyword">if</span> (setSelected) &#123;</div><div class="line">        tab.select();</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">addTabView</span><span class="params">(Tab tab, <span class="keyword">int</span> position, <span class="keyword">boolean</span> setSelected)</span> </span>&#123;</div><div class="line">    <span class="keyword">final</span> TabView tabView = tab.mView;</div><div class="line">    mTabStrip.addView(tabView, position, createLayoutParamsForTabs());</div><div class="line">    <span class="keyword">if</span> (setSelected) &#123;</div><div class="line">        tabView.setSelected(<span class="keyword">true</span>);</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">configureTab</span><span class="params">(Tab tab, <span class="keyword">int</span> position)</span> </span>&#123;</div><div class="line">    tab.setPosition(position);</div><div class="line">    mTabs.add(position, tab);</div><div class="line"></div><div class="line">    <span class="keyword">final</span> <span class="keyword">int</span> count = mTabs.size();</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = position + <span class="number">1</span>; i &lt; count; i++) &#123;</div><div class="line">        mTabs.get(i).setPosition(i);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>在<code>addView(Tab, int, boolean)</code>方法中，把<code>TabView</code>对象add进了<code>SlidingTabStrip</code>这个<code>ViewGroup</code>中。实际上<code>SlidingTabStrip</code>的对象<code>mTabStrip</code>才是<code>TabLayout</code>的唯一子View.在<code>TabLayout</code>的构造方法中:<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="title">TabLayout</span><span class="params">(Context context, AttributeSet attrs, <span class="keyword">int</span> defStyleAttr)</span> </span>&#123;</div><div class="line">        <span class="keyword">super</span>(context, attrs, defStyleAttr);</div><div class="line">    <span class="comment">// 禁用横向滑动条</span></div><div class="line">    setHorizontalScrollBarEnabled(<span class="keyword">false</span>);</div><div class="line"></div><div class="line">    <span class="comment">// new 一个'SlidingTabStrip'的实例，并作为唯一的子View add进'TabLayout'.</span></div><div class="line">    mTabStrip = <span class="keyword">new</span> SlidingTabStrip(context);</div><div class="line">    <span class="keyword">super</span>.addView(mTabStrip, <span class="number">0</span>, <span class="keyword">new</span> HorizontalScrollView.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.MATCH_PARENT));</div><div class="line"></div><div class="line">    <span class="comment">// 省略下面的无关代码...</span></div><div class="line">｝</div></pre></td></tr></table></figure></p>
 <p>至此，我们就明白了<code>TabLayout</code>中子View的一致性是如何保证的。也明白了<code>TabView</code>其实才是亲生的，<code>TabItem</code>其实是后娘养的! 这些代码都很简单，不过我们可以从中学习到很多有用的思想。</p>
-<p>至此，一个清晰的<code>View</code>层级图应该就出现在了各位同学的眼前。<br><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="../assets/hierarchy.png" alt="TabLayout Hierarchy" title="">
-                </div>
-                <div class="image-caption">TabLayout Hierarchy</div>
-            </figure></p>
+<p>至此，一个清晰的<code>View</code>层级图应该就出现在了各位同学的眼前。<br><img src="../assets/hierarchy.png" alt="TabLayout Hierarchy"></p>
 <h4 id="3-2-2-与ViewPager搭配使用"><a href="#3-2-2-与ViewPager搭配使用" class="headerlink" title="3.2.2 与ViewPager搭配使用"></a>3.2.2 与ViewPager搭配使用</h4><p>有了上面的的基础，我们再来看看<code>TabLayout</code>是如何和它的好基友<code>ViewPager</code>搭配使用的。<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setupWithViewPager</span><span class="params">(@Nullable <span class="keyword">final</span> ViewPager viewPager)</span> </span>&#123;</div><div class="line">    <span class="comment">//...</span></div><div class="line">    <span class="comment">//为理解简单起见，删掉边角性干扰代码，主要来看核心逻辑</span></div><div class="line"></div><div class="line">    mViewPager = viewPager;</div><div class="line"></div><div class="line">    <span class="comment">// Add our custom OnPageChangeListener to the ViewPager</span></div><div class="line">    <span class="keyword">if</span> (mPageChangeListener == <span class="keyword">null</span>) &#123;</div><div class="line">        mPageChangeListener = <span class="keyword">new</span> TabLayoutOnPageChangeListener(<span class="keyword">this</span>);</div><div class="line">    &#125;</div><div class="line">    mPageChangeListener.reset();</div><div class="line">    viewPager.addOnPageChangeListener(mPageChangeListener);</div><div class="line"></div><div class="line">    <span class="comment">// Now we'll add a tab selected listener to set ViewPager's current item</span></div><div class="line">    setOnTabSelectedListener(<span class="keyword">new</span> ViewPagerOnTabSelectedListener(viewPager));</div><div class="line"></div><div class="line">    <span class="comment">// Now we'll populate ourselves from the pager adapter</span></div><div class="line">    setPagerAdapter(adapter, <span class="keyword">true</span>);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setOnTabSelectedListener</span><span class="params">(OnTabSelectedListener onTabSelectedListener)</span> </span>&#123;</div><div class="line">    mOnTabSelectedListener = onTabSelectedListener;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">setPagerAdapter</span><span class="params">(@Nullable <span class="keyword">final</span> PagerAdapter adapter, <span class="keyword">final</span> <span class="keyword">boolean</span> addObserver)</span> </span>&#123;</div><div class="line">    <span class="keyword">if</span> (mPagerAdapter != <span class="keyword">null</span> &amp;&amp; mPagerAdapterObserver != <span class="keyword">null</span>) &#123;</div><div class="line">        <span class="comment">// If we already have a PagerAdapter, unregister our observer</span></div><div class="line">        mPagerAdapter.unregisterDataSetObserver(mPagerAdapterObserver);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    mPagerAdapter = adapter;</div><div class="line"></div><div class="line">    <span class="keyword">if</span> (addObserver &amp;&amp; adapter != <span class="keyword">null</span>) &#123;</div><div class="line">        <span class="comment">// Register our observer on the new adapter</span></div><div class="line">        <span class="keyword">if</span> (mPagerAdapterObserver == <span class="keyword">null</span>) &#123;</div><div class="line">            mPagerAdapterObserver = <span class="keyword">new</span> PagerAdapterObserver();</div><div class="line">        &#125;</div><div class="line">        adapter.registerDataSetObserver(mPagerAdapterObserver);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="comment">// Finally make sure we reflect the new adapter</span></div><div class="line">    populateFromPagerAdapter();</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>这里的<code>TabLayoutOnPageChangeListener</code>实现了<code>ViewPager.OnPageChangeListener</code>. 首先调用<code>ViewPager</code>对象<code>addOnPageChangeListener(OnPageChangeListener)</code>来监听<code>ViewPager</code>的滑动以及当前也的选中。然后设置<code>ViewPagerOnTabSelectedListener</code>对象，保证ViewPager的页面和TabLayout的item的选中状态保持一致，以及滚动的协同性。这里的监听在3.2.3中详细讲解。</p>
 <p>我们一般调用<code>viewPager.getAdapter().notifyDataSetChanged()</code>来进行ViewPager的刷新. 现在我们在ViewPager的adapter中注册一个监听器，监听<code>ViewPager</code>的刷新行为。目的是为了刷新<code>ViewPager</code>的同时也可以刷新TabLayout. 我们来看看<code>PagerAdapterObserver</code>这个监听器是如何刷新TabLayout的。<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">private</span> <span class="class"><span class="keyword">class</span> <span class="title">PagerAdapterObserver</span> <span class="keyword">extends</span> <span class="title">DataSetObserver</span> </span>&#123;</div><div class="line">    <span class="meta">@Override</span></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onChanged</span><span class="params">()</span> </span>&#123;</div><div class="line">        populateFromPagerAdapter();</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="meta">@Override</span></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onInvalidated</span><span class="params">()</span> </span>&#123;</div><div class="line">        populateFromPagerAdapter();</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">populateFromPagerAdapter</span><span class="params">()</span> </span>&#123;</div><div class="line">    removeAllTabs();</div><div class="line"></div><div class="line">    <span class="keyword">if</span> (mPagerAdapter != <span class="keyword">null</span>) &#123;</div><div class="line">        <span class="keyword">final</span> <span class="keyword">int</span> adapterCount = mPagerAdapter.getCount();</div><div class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; adapterCount; i++) &#123;</div><div class="line">            addTab(newTab().setText(mPagerAdapter.getPageTitle(i)), <span class="keyword">false</span>);</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        <span class="comment">// Make sure we reflect the currently set ViewPager item</span></div><div class="line">        <span class="keyword">if</span> (mViewPager != <span class="keyword">null</span> &amp;&amp; adapterCount &gt; <span class="number">0</span>) &#123;</div><div class="line">            <span class="keyword">final</span> <span class="keyword">int</span> curItem = mViewPager.getCurrentItem();</div><div class="line">            <span class="keyword">if</span> (curItem != getSelectedTabPosition() &amp;&amp; curItem &lt; getTabCount()) &#123;</div><div class="line">                selectTab(getTabAt(curItem));</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125; <span class="keyword">else</span> &#123;</div><div class="line">        removeAllTabs();</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">removeAllTabs</span><span class="params">()</span> </span>&#123;</div><div class="line">    <span class="comment">// Remove all the views</span></div><div class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = mTabStrip.getChildCount() - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i--) &#123;</div><div class="line">        removeTabViewAt(i);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">for</span> (<span class="keyword">final</span> Iterator&lt;Tab&gt; i = mTabs.iterator(); i.hasNext();) &#123;</div><div class="line">        <span class="keyword">final</span> Tab tab = i.next();</div><div class="line">        i.remove();</div><div class="line">        tab.reset();</div><div class="line">        sTabPool.release(tab);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    mSelectedTab = <span class="keyword">null</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
@@ -3579,21 +3434,13 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
 </ul>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;figure class=&quot;image-bubble&quot;&gt;
-                &lt;div class=&quot;img-lightbox&quot;&gt;
-                    &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
-                   
+      &lt;p&gt;&lt;img src=&quot;https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;amp;label=Star&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;项目地址： &lt;a href
     
     </summary>
     
@@ -3611,24 +3458,12 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
     <published>2017-07-26T12:04:43.000Z</published>
     <updated>2017-07-26T12:05:30.578Z</updated>
     
-    <content type="html"><![CDATA[<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+    <content type="html"><![CDATA[<p><img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;label=Star" alt=""></p>
 <p>项目地址： <a href="https://github.com/itgoyo/AndroidSource-Analysis" target="_blank" rel="external">https://github.com/itgoyo/AndroidSource-Analysis</a></p>
 <p>简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。</p>
 <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p><a href="http://developer.android.com/intl/zh-cn/reference/android/support/v4/widget/SwipeRefreshLayout.html" target="_blank" rel="external">官方文档</a></p>
 <p><code>SwipeRefreshLayout</code> 是一个下拉刷新控件，几乎可以包裹一个任何可以滚动的内容（ListView GridView ScrollView RecyclerView），可以自动识别垂直滚动手势。使用起来非常方便。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="images/SwipeRefreshLayout2" alt="](images/SwipeRefreshLayout1) ![" title="">
-                </div>
-                <div class="image-caption">](images/SwipeRefreshLayout1) ![</div>
-            </figure>
+<p><img src="images/SwipeRefreshLayout1" alt=""> <img src="images/SwipeRefreshLayout2" alt=""></p>
 <p> 1.将需要下拉刷新的空间包裹起来</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">android.support.v4.widget.SwipeRefreshLayout</span></span></div><div class="line">    <span class="attr">android:layout_width</span>=<span class="string">"match_parent"</span></div><div class="line">    <span class="attr">android:layout_height</span>=<span class="string">"match_parent"</span>&gt;</div><div class="line"></div><div class="line">    <span class="tag">&lt;<span class="name">android.support.v7.widget.RecyclerView</span></span></div><div class="line">        <span class="attr">android:id</span>=<span class="string">"@+id/recyclerView"</span></div><div class="line">        <span class="attr">android:layout_width</span>=<span class="string">"match_parent"</span></div><div class="line">        <span class="attr">android:layout_height</span>=<span class="string">"match_parent"</span>/&gt;</div><div class="line"></div><div class="line"><span class="tag">&lt;/<span class="name">android.support.v4.widget.SwipeRefreshLayout</span>&gt;</span></div></pre></td></tr></table></figure>
 <p> 2.设置刷新动画的触发回调</p>
@@ -3687,21 +3522,13 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
 <h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>分析 SwipeRefreshLayout 的流程就是按照平时我们自定义 <code>ViewGroup</code> 的流程，但是其中也有好多需要我们借鉴的地方，如何使用 NestedScrolling相关机制 ，多点触控的处理，onMeasure 中减去了 padding，如何判断子 View 是否可滚动，如何确定 ViewGroup 中某一个 View 的索引等。<br>此外，一个好的下拉刷新框架不仅仅要兼容各种滚动的子控件，还要考虑自己要兼容 NestedScrollingChild 的情况，比如放到 CooCoordinatorLayout 的情况，目前大多数开源的下拉刷新好像都没有达到这个要求，一般都是只考虑了内部嵌套滚动子视图的情况，没有考虑自己作为滚动子视图的情况。</p>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;figure class=&quot;image-bubble&quot;&gt;
-                &lt;div class=&quot;img-lightbox&quot;&gt;
-                    &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
-                   
+      &lt;p&gt;&lt;img src=&quot;https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;amp;label=Star&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;项目地址： &lt;a href
     
     </summary>
     
@@ -3719,13 +3546,7 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
     <published>2017-07-26T11:59:27.000Z</published>
     <updated>2017-07-26T12:03:12.475Z</updated>
     
-    <content type="html"><![CDATA[<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+    <content type="html"><![CDATA[<p><img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;label=Star" alt=""></p>
 <p>项目地址： <a href="https://github.com/itgoyo/AndroidSource-Analysis" target="_blank" rel="external">https://github.com/itgoyo/AndroidSource-Analysis</a></p>
 <p>简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。</p>
 <h1 id="SearchView源码解析"><a href="#SearchView源码解析" class="headerlink" title="SearchView源码解析"></a>SearchView源码解析</h1><p>SearchView是一个搜索框控件，样式也挺好看的。这次解析主要围绕<code>android.support.v7.widget</code>包下的SearchView（API &gt;= 7）,<code>android.widget.SearchView</code>支持API &gt;= 11，<br>另外有个<code>android.support.v4.widget.SearchViewCompat</code></p>
@@ -3794,21 +3615,13 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
 <p>如果我哪里分析错了，请大家及时纠正我，谢谢。</p>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;figure class=&quot;image-bubble&quot;&gt;
-                &lt;div class=&quot;img-lightbox&quot;&gt;
-                    &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
-                   
+      &lt;p&gt;&lt;img src=&quot;https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;amp;label=Star&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;项目地址： &lt;a href
     
     </summary>
     
@@ -3826,13 +3639,7 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
     <published>2017-07-26T11:58:31.000Z</published>
     <updated>2017-07-26T11:58:54.457Z</updated>
     
-    <content type="html"><![CDATA[<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+    <content type="html"><![CDATA[<p><img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;label=Star" alt=""></p>
 <p>项目地址： <a href="https://github.com/itgoyo/AndroidSource-Analysis" target="_blank" rel="external">https://github.com/itgoyo/AndroidSource-Analysis</a></p>
 <p>简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。</p>
 <blockquote>
@@ -3882,21 +3689,13 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
 <h2 id="4-OverScroller解析"><a href="#4-OverScroller解析" class="headerlink" title="4. OverScroller解析"></a>4. OverScroller解析</h2><p><code>OverScroller</code>是对<code>Scroller</code>的拓展，它在<code>Scroller</code>的基础上拓展出了更多的方法。<code>OverScroller</code>的<code>fling</code>方法支持滑动到终点之后并超出一段距离并返回，类似于弹性效果。另外一个<code>springBack()</code>方法是指将指定的点平滑滚动到指定的终点上。这个终点由设置的参数决定。原理我们就不再探究了，大家可以自行研究这两个类的差别。最后具体的使用方法在文章最上面的<code>demo</code>里都有提供。可以<code>clone</code>下来帮助理解。</p>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;figure class=&quot;image-bubble&quot;&gt;
-                &lt;div class=&quot;img-lightbox&quot;&gt;
-                    &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
-                   
+      &lt;p&gt;&lt;img src=&quot;https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;amp;label=Star&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;项目地址： &lt;a href
     
     </summary>
     
@@ -3914,13 +3713,7 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
     <published>2017-07-26T11:57:39.000Z</published>
     <updated>2017-07-26T11:58:00.664Z</updated>
     
-    <content type="html"><![CDATA[<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+    <content type="html"><![CDATA[<p><img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;label=Star" alt=""></p>
 <p>项目地址： <a href="https://github.com/itgoyo/AndroidSource-Analysis" target="_blank" rel="external">https://github.com/itgoyo/AndroidSource-Analysis</a></p>
 <p>简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。</p>
 <h2 id="1-简介"><a href="#1-简介" class="headerlink" title="1. 简介"></a>1. 简介</h2><blockquote>
@@ -4022,21 +3815,13 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
 <p><a href="https://github.com/LittleFriendsGroup/AndroidSdkSourceAnalysis/blob/master/article/LruCache%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md" target="_blank" rel="external">原文链接</a></p>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;figure class=&quot;image-bubble&quot;&gt;
-                &lt;div class=&quot;img-lightbox&quot;&gt;
-                    &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
-                   
+      &lt;p&gt;&lt;img src=&quot;https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;amp;label=Star&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;项目地址： &lt;a href
     
     </summary>
     
@@ -4054,13 +3839,7 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
     <published>2017-07-26T11:55:14.000Z</published>
     <updated>2017-07-26T11:57:13.408Z</updated>
     
-    <content type="html"><![CDATA[<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+    <content type="html"><![CDATA[<p><img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;label=Star" alt=""></p>
 <p>项目地址： <a href="https://github.com/itgoyo/AndroidSource-Analysis" target="_blank" rel="external">https://github.com/itgoyo/AndroidSource-Analysis</a></p>
 <p>简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。</p>
 <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>FloatingActionButton（下文以fab代替）是android support design组件库中提供的一个视图控件，是material design设计中fab的官方实现。</p>
@@ -4077,13 +3856,7 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
 <p><a href="http://android-developers.blogspot.hk/2015/05/android-design-support-library.html" target="_blank" rel="external">http://android-developers.blogspot.hk/2015/05/android-design-support-library.html</a></p>
 </blockquote>
 <h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p>源码版本:23.3.0</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="./01.png" alt="类图" title="">
-                </div>
-                <div class="image-caption">类图</div>
-            </figure>
+<p><img src="./01.png" alt="类图"></p>
 <p>fab间接继承自<code>ImageView</code>（<code>ImageButton</code>是<code>ImageView</code>的子类），因而拥有<code>ImageView</code>的大部分特性。但是其内部还是做了很多定制，我们一一来看。</p>
 <h3 id="1-fab的自定义属性、背景着色相关"><a href="#1-fab的自定义属性、背景着色相关" class="headerlink" title="1. fab的自定义属性、背景着色相关"></a>1. fab的自定义属性、背景着色相关</h3><p>从构造器开始：</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="title">FloatingActionButton</span><span class="params">(Context context, AttributeSet attrs, <span class="keyword">int</span> defStyleAttr)</span> </span>&#123;</div><div class="line">        <span class="keyword">super</span>(context, attrs, defStyleAttr);</div><div class="line">		 <span class="comment">//检查是否使用Theme.Appcompat主题</span></div><div class="line">        ThemeUtils.checkAppCompatTheme(context);</div><div class="line">        <span class="comment">//拿到自定义属性并赋值</span></div><div class="line">        TypedArray a = context.obtainStyledAttributes(attrs,</div><div class="line">                R.styleable.FloatingActionButton, defStyleAttr,</div><div class="line">                R.style.Widget_Design_FloatingActionButton);</div><div class="line">       ...</div><div class="line">        a.recycle();</div><div class="line"></div><div class="line"></div><div class="line">        <span class="keyword">final</span> <span class="keyword">int</span> maxImageSize = (<span class="keyword">int</span>) getResources().getDimension(R.dimen.design_fab_image_size);</div><div class="line">        mImagePadding = (getSizeDimension() - maxImageSize) / <span class="number">2</span>;</div><div class="line"></div><div class="line">		<span class="comment">//背景着色</span></div><div class="line">        getImpl().setBackgroundDrawable(mBackgroundTint, mBackgroundTintMode,</div><div class="line">                mRippleColor, mBorderWidth);</div><div class="line">      <span class="comment">//绘制阴影</span></div><div class="line">        getImpl().setElevation(elevation);</div><div class="line">		...</div><div class="line">    &#125;</div></pre></td></tr></table></figure>
@@ -4169,21 +3942,13 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
 <h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">The MIT License (MIT)</div><div class="line"></div><div class="line">Copyright (c) 2016 Rowandjj</div><div class="line"></div><div class="line">Permission is hereby granted, free of charge, to any person obtaining a copy</div><div class="line">of this software and associated documentation files (the &quot;Software&quot;), to deal</div><div class="line">in the Software without restriction, including without limitation the rights</div><div class="line">to use, copy, modify, merge, publish, distribute, sublicense, and/or sell</div><div class="line">copies of the Software, and to permit persons to whom the Software is</div><div class="line">furnished to do so, subject to the following conditions:</div><div class="line"></div><div class="line">The above copyright notice and this permission notice shall be included in all</div><div class="line">copies or substantial portions of the Software.</div><div class="line"></div><div class="line">THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR</div><div class="line">IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</div><div class="line">FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE</div><div class="line">AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER</div><div class="line">LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,</div><div class="line">OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE</div><div class="line">SOFTWARE.</div></pre></td></tr></table></figure>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;figure class=&quot;image-bubble&quot;&gt;
-                &lt;div class=&quot;img-lightbox&quot;&gt;
-                    &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
-                   
+      &lt;p&gt;&lt;img src=&quot;https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;amp;label=Star&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;项目地址： &lt;a href
     
     </summary>
     
@@ -4201,13 +3966,7 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
     <published>2017-07-26T11:53:52.000Z</published>
     <updated>2017-07-26T11:54:43.516Z</updated>
     
-    <content type="html"><![CDATA[<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+    <content type="html"><![CDATA[<p><img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;label=Star" alt=""></p>
 <p>项目地址： <a href="https://github.com/itgoyo/AndroidSource-Analysis" target="_blank" rel="external">https://github.com/itgoyo/AndroidSource-Analysis</a></p>
 <p>简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。</p>
 <h1 id="CoordinatorLayout-源码分析"><a href="#CoordinatorLayout-源码分析" class="headerlink" title="CoordinatorLayout 源码分析"></a>CoordinatorLayout 源码分析</h1><p><code>CoordinatorLayout</code>有一些很有意思的特性，设置anchor、NestedScroll配合Toolbar/TabLayout的显隐or伸缩、Fab的移动等。今天咱就来一探究竟！</p>
@@ -4328,21 +4087,13 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
 <p>这两个特性导致的子View之间的依赖关系让界面的交互更有意思。有兴趣的同学可以再去看<code>AppBarLayout</code>、<code>FloatingActionButton</code>、<code>SnackBar</code>的源码~~</p>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;figure class=&quot;image-bubble&quot;&gt;
-                &lt;div class=&quot;img-lightbox&quot;&gt;
-                    &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
-                   
+      &lt;p&gt;&lt;img src=&quot;https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;amp;label=Star&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;项目地址： &lt;a href
     
     </summary>
     
@@ -4360,13 +4111,7 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
     <published>2017-07-26T11:52:49.000Z</published>
     <updated>2017-07-26T11:53:12.246Z</updated>
     
-    <content type="html"><![CDATA[<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+    <content type="html"><![CDATA[<p><img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;label=Star" alt=""></p>
 <p>项目地址： <a href="https://github.com/itgoyo/AndroidSource-Analysis" target="_blank" rel="external">https://github.com/itgoyo/AndroidSource-Analysis</a></p>
 <p>简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。</p>
 <p>CompoundButton 是一个有两种状态（选中和未选中 / checkd unchecked）的Button。当你按下（pressed）或者点击（clicked），它的状态会自动改变。</p>
@@ -4376,13 +4121,7 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
 <li>实现自Checkable 接口（interface），利用它可以设置状态（setChecked(boolean checked)），获取状态（isChecked()）和切换状态（toggle()）</li>
 </ul>
 <p>最后的效果图就是这样的。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://ww2.sinaimg.cn/large/68622377gw1f36nyso3hsg20c0034dfy.gif" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://ww2.sinaimg.cn/large/68622377gw1f36nyso3hsg20c0034dfy.gif" alt=""></p>
 <h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// 选中和未选中的状态</span></div><div class="line"><span class="keyword">private</span> <span class="keyword">boolean</span> mChecked;</div><div class="line"></div><div class="line"><span class="keyword">private</span> <span class="keyword">boolean</span> mBroadcasting;</div><div class="line"></div><div class="line"><span class="keyword">private</span> Drawable mButtonDrawable;</div><div class="line"></div><div class="line"><span class="keyword">private</span> ColorStateList mButtonTintList = <span class="keyword">null</span>;</div><div class="line"><span class="comment">// 就是水波纹和背景颜色混合的方式</span></div><div class="line"><span class="keyword">private</span> PorterDuff.Mode mButtonTintMode = <span class="keyword">null</span>;</div><div class="line"></div><div class="line"><span class="keyword">private</span> <span class="keyword">boolean</span> mHasButtonTint = <span class="keyword">false</span>;</div><div class="line"><span class="keyword">private</span> <span class="keyword">boolean</span> mHasButtonTintMode = <span class="keyword">false</span>;</div><div class="line"></div><div class="line"><span class="comment">// 状态监听</span></div><div class="line"><span class="keyword">private</span> OnCheckedChangeListener mOnCheckedChangeListener;</div><div class="line"><span class="keyword">private</span> OnCheckedChangeListener mOnCheckedChangeWidgetListener;</div></pre></td></tr></table></figure>
 <p>这是一些局部变量，在后面的分析会用到。</p>
 <p>我们先来看看CompoundButton 自定义控件有哪些属性</p>
@@ -4411,21 +4150,13 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
 </ul>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;figure class=&quot;image-bubble&quot;&gt;
-                &lt;div class=&quot;img-lightbox&quot;&gt;
-                    &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
-                   
+      &lt;p&gt;&lt;img src=&quot;https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;amp;label=Star&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;项目地址： &lt;a href
     
     </summary>
     
@@ -4443,24 +4174,12 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
     <published>2017-07-26T11:46:44.000Z</published>
     <updated>2017-07-26T11:52:07.551Z</updated>
     
-    <content type="html"><![CDATA[<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+    <content type="html"><![CDATA[<p><img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;label=Star" alt=""></p>
 <p>项目地址： <a href="https://github.com/itgoyo/AndroidSource-Analysis" target="_blank" rel="external">https://github.com/itgoyo/AndroidSource-Analysis</a></p>
 <p>简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。</p>
 <h1 id="bindService-源码分析-【进行中】"><a href="#bindService-源码分析-【进行中】" class="headerlink" title="bindService 源码分析 【进行中】"></a>bindService 源码分析 【进行中】</h1><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>客户端通过 ContextWrapper.bindService() 方法来绑定服务，本地对 bindService 的过程进行源码分析。</p>
 <p><strong>整体时序图</strong></p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://github.com/xxx" alt="bindService 时序图" title="">
-                </div>
-                <div class="image-caption">bindService 时序图</div>
-            </figure>
+<p><img src="https://github.com/xxx" alt="bindService 时序图"></p>
 <h2 id="源码分析"><a href="#源码分析" class="headerlink" title="源码分析"></a>源码分析</h2><p>1. 客户端调用 <a href="https://github.com/xdtianyu/AidlExample/blob/master/app/src/main/java/org/xdty/aidlexample/MainActivity.java#L45" target="_blank" rel="external">bindService()</a> 绑定服务</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// MainActivity.java</span></div><div class="line"><span class="meta">@Override</span></div><div class="line"><span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">onCreate</span><span class="params">(Bundle savedInstanceState)</span> </span>&#123;</div><div class="line">    <span class="keyword">super</span>.onCreate(savedInstanceState);</div><div class="line">    setContentView(R.layout.activity_main);</div><div class="line"></div><div class="line">    Intent intent = <span class="keyword">new</span> Intent().setComponent(<span class="keyword">new</span> ComponentName(</div><div class="line">            <span class="string">"org.xdty.remoteservice"</span>,</div><div class="line">            <span class="string">"org.xdty.remoteservice.RemoteService"</span>));</div><div class="line">    bindService(intent, mConnection, Context.BIND_AUTO_CREATE);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p><code>Activity.bindService()</code> 最终调用的是 <a href="https://github.com/xdtianyu/android-6.0.0_r1/blob/master/frameworks/base/core/java/android/app/ContextImpl.java#L1283" target="_blank" rel="external">ContextImpl.bindService()</a> 方法</p>
@@ -4498,21 +4217,13 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="http://blog.csdn.net/luoshengyang/article/details/6745181" target="_blank" rel="external">Android应用程序绑定服务（bindService）的过程源代码分析</a></p>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;figure class=&quot;image-bubble&quot;&gt;
-                &lt;div class=&quot;img-lightbox&quot;&gt;
-                    &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
-                   
+      &lt;p&gt;&lt;img src=&quot;https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;amp;label=Star&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;项目地址： &lt;a href
     
     </summary>
     
@@ -4530,35 +4241,17 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
     <published>2017-07-26T11:44:18.000Z</published>
     <updated>2017-07-26T11:45:24.437Z</updated>
     
-    <content type="html"><![CDATA[<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+    <content type="html"><![CDATA[<p><img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;label=Star" alt=""></p>
 <p>项目地址： <a href="https://github.com/itgoyo/AndroidSource-Analysis" target="_blank" rel="external">https://github.com/itgoyo/AndroidSource-Analysis</a></p>
 <p>简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。</p>
 <p>本文是基于 <a href="https://github.com/xdtianyu/android-6.0.0_r1" target="_blank" rel="external">Android 6.0.0</a> 和 <a href="https://github.com/xdtianyu/android-msm-hammerhead-3.4-marshmallow" target="_blank" rel="external">kernel 3.4</a> 源码 及 Android SDK 23 展开的</p>
 <h2 id="1-简介"><a href="#1-简介" class="headerlink" title="1. 简介"></a>1. 简介</h2><p>Binder 是一种 Android 进程间通信机制，提供远程过程调用(Remote Procedure Call)功能。我们最直接的使用是调用 <code>Context.getSystemService()</code> 来获取系统服务，或直接使用 <code>AIDL</code> 来实现多个程序(APP)间数据交互。</p>
 <p>Binder 是非常重要的 Android 基础组件，几乎所有的进程间通信都是使用 Binder 机制实现的。本文将结合源码展开讲述 Binder ，同时对一些重要知识点提供扩展阅读的参考。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/android_binder.png" alt="android_binder" title="">
-                </div>
-                <div class="image-caption">android_binder</div>
-            </figure>
+<p><img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/android_binder.png" alt="android_binder"></p>
 <p>不管是 Android 系统服务(System services)还是用户的应用进程(User apps)，最终都会通过 binder 来实现进程间通信。上层应用首先通过 IBinder 的 transcate 方法发送命令给 libbinder， libbinder 再通过系统调用(ioctl) 发送命令到内核中的 binder 驱动，之后再由驱动完成进程间数据的交互。</p>
 <p>我们经常使用的 Intent，Messager 数据传递也是对 Binder 更高层次的抽象和封装，最终还是会由内核中的 binder 驱动完成数据的传递。</p>
 <h2 id="2-Binder-与-AIDL"><a href="#2-Binder-与-AIDL" class="headerlink" title="2. Binder 与 AIDL"></a>2. Binder 与 AIDL</h2><p>AIDL (Android Interface definition language) 是接口描述语言，用于生成在两个进程间进行通信的代码。先看 AIDL 概念图</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/AIDL.png" alt="AIDL概念图" title="">
-                </div>
-                <div class="image-caption">AIDL概念图</div>
-            </figure>
+<p><img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/AIDL.png" alt="AIDL概念图"></p>
 <ul>
 <li><p>Stub.Proxy 和 Stub 代码由 Android Sdk 自动生成，客户端通过 Stub.Proxy 与远程服务交互。</p>
 </li>
@@ -4601,21 +4294,9 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
 <p>利用进程间通信，我们可以实现简单的应用插件功能。关于 AIDL 在实际项目中的应用，可以参考 <a href="https://github.com/xdtianyu/CallerInfo/tree/master/plugin/src/main" target="_blank" rel="external">CallerInfo Plugin</a> 的实现</p>
 <p>从上面分析可以看出， AIDL 的本质是对 Binder 的又一次抽象和封装，实际的进程间通信仍是由 Binder 完成的。</p>
 <h2 id="3-Binder-框架及-Native-层"><a href="#3-Binder-框架及-Native-层" class="headerlink" title="3. Binder 框架及 Native 层"></a>3. Binder 框架及 Native 层</h2><p>Binder机制使本地对象可以像操作当前对象一样调用远程对象，可以使不同的进程间互相通信。Binder 使用 Client/Server 架构，客户端通过服务端代理，经过 Binder 驱动与服务端交互。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/Binder.png" alt="Binder框架图片" title="">
-                </div>
-                <div class="image-caption">Binder框架图片</div>
-            </figure>
+<p><img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/Binder.png" alt="Binder框架图片"></p>
 <p>Binder 机制实现进程间通信的奥秘在于 kernel 中的 Binder 驱动，将在 <a href="#4-binder-%E9%A9%B1%E5%8A%A8">4. Binder 驱动</a> 小节详细讲述。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/binder_native.png" alt="Binder本地框架图片" title="">
-                </div>
-                <div class="image-caption">Binder本地框架图片</div>
-            </figure>
+<p><img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/binder_native.png" alt="Binder本地框架图片"></p>
 <p>JNI 的代码位于 <a href="https://github.com/xdtianyu/android-6.0.0_r1/tree/master/frameworks/base/core/jni" target="_blank" rel="external">frameworks/base/core/jni</a> 目录下，主要是 <a href="https://github.com/xdtianyu/android-6.0.0_r1/blob/master/frameworks/base/core/jni/android_util_Binder.cpp" target="_blank" rel="external">android_util_Binder.cpp</a> 文件和头文件 <a href="https://github.com/xdtianyu/android-6.0.0_r1/blob/master/frameworks/base/core/jni/android_util_Binder.h" target="_blank" rel="external">android_util_Binder.h</a></p>
 <p>Binder JNI 代码是 Binder Java 层操作到 Binder Native 层的接口封装，最后会被编译进 <code>libandroid_runtime.so</code> 系统库。</p>
 <p>Binder 本地层的代码在 <a href="https://github.com/xdtianyu/android-6.0.0_r1/tree/master/frameworks/native/libs/binder" target="_blank" rel="external">frameworks/native/libs/binder</a> 目录下， 此目录在 Android 系统编译后会生成 <code>libbinder.so</code> 文件，供 JNI 调用。<code>libbinder</code> 封装了所有对 binder 驱动的操作，是上层应用与驱动交互的桥梁。头文件则在 <a href="https://github.com/xdtianyu/android-6.0.0_r1/tree/master/frameworks/native/include/binder" target="_blank" rel="external">frameworks/native/include/binder</a> 目录下。</p>
@@ -4624,13 +4305,7 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">sp&lt;IBinder&gt; IInterface::asBinder(<span class="keyword">const</span> IInterface* iface)</div><div class="line">&#123;</div><div class="line">    <span class="keyword">if</span> (iface == <span class="literal">NULL</span>) <span class="keyword">return</span> <span class="literal">NULL</span>;</div><div class="line">    <span class="keyword">return</span> <span class="keyword">const_cast</span>&lt;IInterface*&gt;(iface)-&gt;onAsBinder();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> INTERFACE&gt;</div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">BnInterface</span> :</span> <span class="keyword">public</span> INTERFACE, <span class="keyword">public</span> BBinder</div><div class="line">&#123;</div><div class="line"><span class="keyword">public</span>:</div><div class="line">    <span class="keyword">virtual</span> sp&lt;IInterface&gt;      queryLocalInterface(<span class="keyword">const</span> String16&amp; _descriptor);</div><div class="line">    <span class="function"><span class="keyword">virtual</span> <span class="keyword">const</span> String16&amp;     <span class="title">getInterfaceDescriptor</span><span class="params">()</span> <span class="keyword">const</span></span>;</div><div class="line"></div><div class="line"><span class="keyword">protected</span>:</div><div class="line">    <span class="function"><span class="keyword">virtual</span> IBinder*            <span class="title">onAsBinder</span><span class="params">()</span></span>;</div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="comment">// ----------------------------------------------------------------------</span></div><div class="line"></div><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> INTERFACE&gt;</div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">BpInterface</span> :</span> <span class="keyword">public</span> INTERFACE, <span class="keyword">public</span> BpRefBase</div><div class="line">&#123;</div><div class="line"><span class="keyword">public</span>:</div><div class="line">                                BpInterface(<span class="keyword">const</span> sp&lt;IBinder&gt;&amp; remote);</div><div class="line"></div><div class="line"><span class="keyword">protected</span>:</div><div class="line">    <span class="function"><span class="keyword">virtual</span> IBinder*            <span class="title">onAsBinder</span><span class="params">()</span></span>;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
 <p>其中 <code>BnInterface</code> 是实现Stub功能的模板，扩展BBinder的onTransact()方法实现Binder命令的解析和执行。<code>BpInterface</code> 是实现Proxy功能的模板，BpRefBase里有个mRemote对象指向一个BpBinder对象。</p>
-<h3 id="3-2-Binder-本地层的整个函数-方法调用过程"><a href="#3-2-Binder-本地层的整个函数-方法调用过程" class="headerlink" title="3.2 Binder 本地层的整个函数/方法调用过程"></a>3.2 Binder 本地层的整个函数/方法调用过程</h3><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/binder_native_stack.png" alt="Binder本地函数调用图" title="">
-                </div>
-                <div class="image-caption">Binder本地函数调用图</div>
-            </figure>
+<h3 id="3-2-Binder-本地层的整个函数-方法调用过程"><a href="#3-2-Binder-本地层的整个函数-方法调用过程" class="headerlink" title="3.2 Binder 本地层的整个函数/方法调用过程"></a>3.2 Binder 本地层的整个函数/方法调用过程</h3><p><img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/binder_native_stack.png" alt="Binder本地函数调用图"></p>
 <p>1. Java 层 <a href="https://github.com/xdtianyu/AidlExample/blob/master/app/build/generated/source/aidl/debug/org/xdty/remoteservice/IRemoteService.java#L147" target="_blank" rel="external">IRemoteService.Stub.Proxy</a> 调用 <a href="https://github.com/xdtianyu/android-6.0.0_r1/blob/master/frameworks/base/core/java/android/os/Binder.java#L501" target="_blank" rel="external">android.os.IBinder (实现在 android.os.Binder.BinderProxy)</a> 的 <code>transact()</code> 发送 <code>Stub.TRANSACTION_addUser</code> 命令。</p>
 <p>2. 由 <a href="https://github.com/xdtianyu/android-6.0.0_r1/blob/master/frameworks/base/core/java/android/os/Binder.java#L507" target="_blank" rel="external">BinderProxy.transact()</a> 进入 native 层。</p>
 <p>3. 由 <a href="https://github.com/xdtianyu/android-6.0.0_r1/blob/master/frameworks/base/core/jni/android_util_Binder.cpp#L1246" target="_blank" rel="external">jni</a> 转到 <a href="https://github.com/xdtianyu/android-6.0.0_r1/blob/master/frameworks/base/core/jni/android_util_Binder.cpp#L1246" target="_blank" rel="external">android_os_BinderProxy_transact()</a> 函数。</p>
@@ -4675,13 +4350,7 @@ nSetupParagraph(b.mNativePtr, chs, paraEnd - paraStart,
 <p>可以看出，本地层是对应用与 binder 驱动交互的直接封装与实现，最终的数据传输仍是由驱动来完成的。本地层对底层驱动进行了完整的封装，上层应用只关心 transact() 和 onTransact() 回调，察觉不到 binder 驱动的存在，减轻了上层应用进程间通信开发的复杂度。</p>
 <h2 id="4-Binder-驱动"><a href="#4-Binder-驱动" class="headerlink" title="4. Binder 驱动"></a>4. Binder 驱动</h2><p>关于 binder 驱动建议参考另一篇文章 <a href="http://blog.csdn.net/yangwen123/article/details/9316987" target="_blank" rel="external">深入分析Android Binder 驱动</a> <a href="[Android Binder](https://web.archive.org/web/20101016004342/http://www.gmier.com/node/11">原文</a>，本小节仍需要完善。</p>
 <p>Binder 驱动是 Binder 的最终实现， ServiceManager 和 Client/Service 进程间通信最终都是由 Binder 驱动投递的。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/binder_reference.png" alt="Binder reference" title="">
-                </div>
-                <div class="image-caption">Binder reference</div>
-            </figure>
+<p><img src="https://raw.githubusercontent.com/xdtianyu/SourceAnalysis/master/art/binder_reference.png" alt="Binder reference"></p>
 <p>Binder 驱动的代码位于 kernel 代码的 <a href="https://github.com/xdtianyu/android-msm-hammerhead-3.4-marshmallow/tree/master/drivers/staging/android" target="_blank" rel="external">drivers/staging/android</a> 目录下。主文件是 <a href="https://github.com/xdtianyu/android-msm-hammerhead-3.4-marshmallow/blob/master/drivers/staging/android/binder.h" target="_blank" rel="external">binder.h</a> 和 <a href="https://github.com/xdtianyu/android-msm-hammerhead-3.4-marshmallow/blob/master/drivers/staging/android/binder.c" target="_blank" rel="external">binder.c</a></p>
 <p>进程间传输的数据被称为 Binder 对象，它是一个 <a href="https://github.com/xdtianyu/android-msm-hammerhead-3.4-marshmallow/blob/master/drivers/staging/android/binder.h#L49" target="_blank" rel="external">flat_binder_object</a>，结构如下</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">struct</span> <span class="title">flat_binder_object</span> &#123;</span></div><div class="line">    <span class="comment">/* 8 bytes for large_flat_header. */</span></div><div class="line">    <span class="keyword">unsigned</span> <span class="keyword">long</span>       type;</div><div class="line">    <span class="keyword">unsigned</span> <span class="keyword">long</span>       flags;</div><div class="line"></div><div class="line">    <span class="comment">/* 8 bytes of data. */</span></div><div class="line">    <span class="keyword">union</span> &#123;</div><div class="line">        <span class="keyword">void</span>        *binder;    <span class="comment">/* local object */</span></div><div class="line">        <span class="keyword">signed</span> <span class="keyword">long</span> handle;     <span class="comment">/* remote object */</span></div><div class="line">    &#125;;</div><div class="line"></div><div class="line">    <span class="comment">/* extra data associated with local object */</span></div><div class="line">    <span class="keyword">void</span>            *cookie;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
@@ -4785,21 +4454,13 @@ inflater.inflate(R.layout.view, root, true);
 <p>5. 完善 binder 驱动内容，补充关系图</p>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;figure class=&quot;image-bubble&quot;&gt;
-                &lt;div class=&quot;img-lightbox&quot;&gt;
-                    &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
-                   
+      &lt;p&gt;&lt;img src=&quot;https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;amp;label=Star&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;项目地址： &lt;a href
     
     </summary>
     
@@ -4817,13 +4478,7 @@ inflater.inflate(R.layout.view, root, true);
     <published>2017-07-26T11:36:58.000Z</published>
     <updated>2017-07-26T11:42:43.373Z</updated>
     
-    <content type="html"><![CDATA[<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+    <content type="html"><![CDATA[<p><img src="https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;label=Star" alt=""></p>
 <p>项目地址： <a href="https://github.com/itgoyo/AndroidSource-Analysis" target="_blank" rel="external">https://github.com/itgoyo/AndroidSource-Analysis</a></p>
 <p>简介： Android源码分析，让你更清楚的理解每一个组件的功能与用法。</p>
 <h2 id="1-简介"><a href="#1-简介" class="headerlink" title="1. 简介"></a>1. 简介</h2><p>AsyncTask是android提供的一种异步消息处理的解决方案，能简化我们在子线程中更新UI控件，使用AsyncTask你将看不到任何关于操作线程的代码</p>
@@ -4896,13 +4551,7 @@ inflater.inflate(R.layout.view, root, true);
 <p>FutureTask的构造函数如下，<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="title">FutureTask</span><span class="params">(Callable&lt;V&gt; callable)</span> </span>&#123;</div><div class="line">    <span class="keyword">if</span> (callable == <span class="keyword">null</span>)</div><div class="line">        <span class="keyword">throw</span> <span class="keyword">new</span> NullPointerException();</div><div class="line">    <span class="comment">//将AsyncTask里面初始化的callable赋值给FutureTask里面的callable，证实了WorkerRunnable的回调方法call肯定是在FutureTask中调用的</span></div><div class="line">    <span class="keyword">this</span>.callable = callable;</div><div class="line">    <span class="keyword">this</span>.state = NEW;       <span class="comment">// ensure visibility of callable</span></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>查看FutureTask类，它实现了接口Runnable<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">FutureTask</span>&lt;<span class="title">V</span>&gt; <span class="keyword">implements</span> <span class="title">RunnableFuture</span>&lt;<span class="title">V</span>&gt; // 实现了<span class="title">RunnableFuture</span>接口</span></div></pre></td></tr></table></figure></p>
 <p>作为Runnable被线程执行，同时将Callable作为构造函数的参数传入，这样组合的好处是，假设有一个很耗时的返回值需要计算，并且这个返回值不是立刻需要的话，就可以使用这个组合，用另一个线程去计算返回值，而当前线程在使用这个返回值之前可以做其它的操作，等到需要这个返回值时，再通过Future得到。FutureTask的run方法要开始回调WorkerRunable的call方法了，call里面调用doInBackground(mParams)，终于回到我们后台任务了，调用我们AsyncTask子类的<code>doInBackground()</code>，由此可以看出<code>doInBackground()</code>是在子线程中执行的，如下图所示</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/images/FutureTask.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/images/FutureTask.png" alt=""></p>
 <h3 id="4-2-核心方法"><a href="#4-2-核心方法" class="headerlink" title="4.2 核心方法"></a>4.2 核心方法</h3><p>1、execute()方法<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">volatile</span> Executor sDefaultExecutor = SERIAL_EXECUTOR;</div><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> Executor SERIAL_EXECUTOR = <span class="keyword">new</span> SerialExecutor();</div><div class="line"></div><div class="line"> <span class="comment">/** AsyncTask类的execute方法**/</span></div><div class="line"> <span class="function"><span class="keyword">public</span> <span class="keyword">final</span> AsyncTask&lt;Params, Progress, Result&gt; <span class="title">execute</span><span class="params">(Params... params)</span> </span>&#123;</div><div class="line">    <span class="comment">//调用executeOnExecutor方法</span></div><div class="line">    <span class="keyword">return</span> executeOnExecutor(sDefaultExecutor, params);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>当执行execute方法时，实际上是调用了executeOnExecutor方法。这里传递了两个参数，一个是sDefaultExecutor，一个是params。从上面的源码可以看出，sDefaultExecutor其实是一个SerialExecutor对象，实现了串行线程队列。params其实最终会赋给doInBackground方法去处理。</p>
 <p>2、executeOnExecutor()方法<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//exec执行AsyncTask.execute()方法时传递进来的参数sDefaultExecutor，这个sDefaultExecutor其实就是SerialExecutor对象。默认是串行执行的</span></div><div class="line"><span class="comment">//若想变成并发执行exec可以传入AsyncTask.THREAD_POOL_EXECUTOR。</span></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">final</span> AsyncTask&lt;Params, Progress, Result&gt; <span class="title">executeOnExecutor</span><span class="params">(Executor exec,</span></span></div><div class="line">            Params... params) &#123;</div><div class="line">        <span class="comment">//如果一个任务已经进入执行的状态，再执行就会抛异常。这就决定了一个AsyncTask只能执行一次</span></div><div class="line">        <span class="keyword">if</span> (mStatus != Status.PENDING) &#123;</div><div class="line">            <span class="keyword">switch</span> (mStatus) &#123;</div><div class="line">                <span class="keyword">case</span> RUNNING:</div><div class="line">                    <span class="keyword">throw</span> <span class="keyword">new</span> IllegalStateException(<span class="string">"Cannot execute task:"</span></div><div class="line">                            + <span class="string">" the task is already running."</span>);</div><div class="line">                <span class="keyword">case</span> FINISHED:</div><div class="line">                    <span class="keyword">throw</span> <span class="keyword">new</span> IllegalStateException(<span class="string">"Cannot execute task:"</span></div><div class="line">                            + <span class="string">" the task has already been executed "</span></div><div class="line">                            + <span class="string">"(a task can be executed only once)"</span>);</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">	<span class="comment">//一旦executeOnExecutor调用了就标记为运行状态</span></div><div class="line">        mStatus = Status.RUNNING;</div><div class="line">	<span class="comment">//实际是调用子类里面的onPreExecute</span></div><div class="line">        onPreExecute();</div><div class="line">	<span class="comment">//将处理的参数类型赋值给mWorker</span></div><div class="line">        mWorker.mParams = params;</div><div class="line">        <span class="comment">//execute是调用SERIAL_EXECUTOR的execute，mFuture就是之前AsyncTask构造初始化赋值的FutureTask。</span></div><div class="line">        exec.execute(mFuture);</div><div class="line">        <span class="keyword">return</span> <span class="keyword">this</span>;</div><div class="line">    &#125;</div></pre></td></tr></table></figure></p>
@@ -4929,13 +4578,7 @@ inflater.inflate(R.layout.view, root, true);
 </ul>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@WorkerThread</span></div><div class="line"><span class="function"><span class="keyword">protected</span> <span class="keyword">final</span> <span class="keyword">void</span> <span class="title">publishProgress</span><span class="params">(Progress... values)</span> </span>&#123;</div><div class="line">    <span class="keyword">if</span> (!isCancelled()) &#123;</div><div class="line">        getHandler().obtainMessage(MESSAGE_POST_PROGRESS,</div><div class="line">                <span class="keyword">new</span> AsyncTaskResult&lt;Progress&gt;(<span class="keyword">this</span>, values)).sendToTarget();</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>如果你还不够清晰，请看下面的这个流程图</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="images/AsyncTask流程图.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="images/AsyncTask流程图.png" alt=""></p>
 <h2 id="5-AsyncTask需要注意的坑"><a href="#5-AsyncTask需要注意的坑" class="headerlink" title="5. AsyncTask需要注意的坑"></a>5. AsyncTask需要注意的坑</h2><ul>
 <li>AsyncTask的对象必须在主线程中实例化，execute方法也要在主线程调用(查看3.1节-AsyncTask构造函数)</li>
 <li>同一个AsyncTask任务只能被执行一次，即只能调用一次execute方法，多次调用时将会抛异常（查看3.2里面的第二小节）</li>
@@ -4950,21 +4593,13 @@ inflater.inflate(R.layout.view, root, true);
 <h2 id="7-总结"><a href="#7-总结" class="headerlink" title="7. 总结"></a>7. 总结</h2><p>尽管AsyncTask现在已经很少使用了，但是它的一些设计思路可以借鉴到我们的框架中。比如我们的代码中尽量设计灵活一些，就像AysnTask里面存在串行、并行的操作一样，提供用户同的api，让用户在不同的场景下选择不同的业务逻辑处理。</p>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;figure class=&quot;image-bubble&quot;&gt;
-                &lt;div class=&quot;img-lightbox&quot;&gt;
-                    &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
-                   
+      &lt;p&gt;&lt;img src=&quot;https://img.shields.io/github/stars/itgoyo/AndroidSource-Analysis.svg?style=social&amp;amp;label=Star&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;项目地址： &lt;a href
     
     </summary>
     
@@ -4982,683 +4617,144 @@ inflater.inflate(R.layout.view, root, true);
     <published>2017-07-25T13:30:45.000Z</published>
     <updated>2017-07-26T11:23:12.997Z</updated>
     
-    <content type="html"><![CDATA[<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/itgoyo/Android-Studio-Plugins.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+    <content type="html"><![CDATA[<p><img src="https://img.shields.io/github/stars/itgoyo/Android-Studio-Plugins.svg?style=social&amp;label=Star" alt=""></p>
 <p>#1.<a href="http://plugins.jetbrains.com/plugin/7654?pr=androidstudio" target="_blank" rel="external">GsonFormat</a><br>快速将json字符串转换成一个Java Bean，免去我们根据json字符串手写对应Java Bean的过程。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7654/screenshot_15729.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://plugins.jetbrains.com/files/7654/screenshot_15729.png" alt=""></p>
 <p>使用方法：快捷键Alt+S也可以使用Alt+Insert选择GsonFormat</p>
 <h1 id="2-Android-ButterKnife-Zelezny"><a href="#2-Android-ButterKnife-Zelezny" class="headerlink" title="2.Android ButterKnife Zelezny"></a>2.<a href="http://plugins.jetbrains.com/plugin/7369?pr=androidstudio" target="_blank" rel="external">Android ButterKnife Zelezny</a></h1><p>配合ButterKnife实现注解，从此不用写findViewById，想着就爽啊。在Activity，Fragment，Adapter中选中布局xml的资源id自动生成butterknife注解。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7369/screenshot_14384.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://plugins.jetbrains.com/files/7369/screenshot_14384.png" alt=""></p>
 <p>使用方法：Ctrl+Shift+B选择图上所示选项</p>
 <h1 id="3-Android-Code-Generator"><a href="#3-Android-Code-Generator" class="headerlink" title="3.Android Code Generator"></a>3.<a href="http://plugins.jetbrains.com/plugin/7595?pr=androidstudio" target="_blank" rel="external">Android Code Generator</a></h1><p>根据布局文件快速生成对应的Activity，Fragment，Adapter，Menu。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7595/screenshot_14834.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7595/screenshot_14833.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://plugins.jetbrains.com/files/7595/screenshot_14834.png" alt=""><br><img src="http://plugins.jetbrains.com/files/7595/screenshot_14833.png" alt=""></p>
 <h1 id="4-Android-Parcelable-code-generator"><a href="#4-Android-Parcelable-code-generator" class="headerlink" title="4.Android Parcelable code generator"></a>4.<a href="http://plugins.jetbrains.com/plugin/7332?pr=androidstudio" target="_blank" rel="external">Android Parcelable code generator</a></h1><p>JavaBean序列化，快速实现Parcelable接口。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://segmentfault.com/image?src=http://img.blog.csdn.net/20160416104459926&objectId=1190000005092842&token=ab29ed79d41be9e42b3a3d2ed1ec3bef" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://segmentfault.com/image?src=http://img.blog.csdn.net/20160416104459926&amp;objectId=1190000005092842&amp;token=ab29ed79d41be9e42b3a3d2ed1ec3bef" alt=""></p>
 <h1 id="5-Android-Methods-Count"><a href="#5-Android-Methods-Count" class="headerlink" title="5.Android Methods Count"></a>5.<a href="http://plugins.jetbrains.com/plugin/8076?pr=androidstudio" target="_blank" rel="external">Android Methods Count</a></h1><p>显示依赖库中得方法数</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/8076/screenshot_15509.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://plugins.jetbrains.com/files/8076/screenshot_15509.png" alt=""></p>
 <h1 id="6-Lifecycle-Sorter"><a href="#6-Lifecycle-Sorter" class="headerlink" title="6.Lifecycle Sorter"></a>6.<a href="http://plugins.jetbrains.com/plugin/7742?pr=androidstudio" target="_blank" rel="external">Lifecycle Sorter</a></h1><p>可以根据Activity或者fragment的生命周期对其生命周期方法位置进行先后排序，快捷键Ctrl + alt + K</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7742/screenshot_15071.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7742/screenshot_15070.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://plugins.jetbrains.com/files/7742/screenshot_15071.png" alt=""><br><img src="http://plugins.jetbrains.com/files/7742/screenshot_15070.png" alt=""></p>
 <h1 id="7-CodeGlance"><a href="#7-CodeGlance" class="headerlink" title="7.CodeGlance"></a>7.<a href="http://plugins.jetbrains.com/plugin/7275?pr=androidstudio" target="_blank" rel="external">CodeGlance</a></h1><p>在右边可以预览代码，实现快速定位</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7275/screenshot_14294.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7275/screenshot_14295.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://plugins.jetbrains.com/files/7275/screenshot_14294.png" alt=""><br><img src="http://plugins.jetbrains.com/files/7275/screenshot_14295.png" alt=""></p>
 <h1 id="8-findBugs-IDEA"><a href="#8-findBugs-IDEA" class="headerlink" title="8.findBugs-IDEA"></a>8.<a href="http://plugins.jetbrains.com/plugin/3847?pr=androidstudio" target="_blank" rel="external">findBugs-IDEA</a></h1><p>查找bug的插件，Android Studio也提供了代码审查的功能（Analyze-Inspect Code…）</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/oldimg/screenshots/FindBugs-IDEA_2541.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://plugins.jetbrains.com/oldimg/screenshots/FindBugs-IDEA_2541.png" alt=""></p>
 <h1 id="9-ADB-WIFI"><a href="#9-ADB-WIFI" class="headerlink" title="9.ADB WIFI"></a>9.<a href="http://plugins.jetbrains.com/plugin/7856?pr=androidstudio" target="_blank" rel="external">ADB WIFI</a></h1><p>使用wifi无线调试你的app，无需root权限<br>也可参考以下文章：<br><a href="http://www.jianshu.com/p/21d1b65d92a4" target="_blank" rel="external">Android wifi无线调试App新玩法ADB WIFI</a></p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7856/screenshot_15153.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://plugins.jetbrains.com/files/7856/screenshot_15153.png" alt=""></p>
 <h1 id="10-AndroidPixelDimenGenerator"><a href="#10-AndroidPixelDimenGenerator" class="headerlink" title="10.AndroidPixelDimenGenerator"></a>10.<a href="https://github.com/succlz123/AndroidPixelDimenGenerator" target="_blank" rel="external">AndroidPixelDimenGenerator</a></h1><p>Android Studio自动生成dimen.xml文件插件</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://github.com/succlz123/AndroidPixelDimenGenerator/raw/master/snapshot/1.jpeg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://github.com/succlz123/AndroidPixelDimenGenerator/raw/master/snapshot/1.jpeg" alt=""></p>
 <h1 id="11-JsonOnlineViewer"><a href="#11-JsonOnlineViewer" class="headerlink" title="11.JsonOnlineViewer"></a>11.<a href="http://plugins.jetbrains.com/plugin/7838?pr=androidstudio" target="_blank" rel="external">JsonOnlineViewer</a></h1><p>在Android Studio中请求、调试接口</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7838/screenshot_15113.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://plugins.jetbrains.com/files/7838/screenshot_15113.png" alt=""></p>
 <h1 id="12-Android-Styler"><a href="#12-Android-Styler" class="headerlink" title="12.Android Styler"></a>12.<a href="http://plugins.jetbrains.com/plugin/7972?pr=androidstudio" target="_blank" rel="external">Android Styler</a></h1><p>根据xml自动生成style代码的插件</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7972/screenshot_15340.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7972/screenshot_15339.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7972/screenshot_15338.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://plugins.jetbrains.com/files/7972/screenshot_15340.png" alt=""><br><img src="http://plugins.jetbrains.com/files/7972/screenshot_15339.png" alt=""><br><img src="http://plugins.jetbrains.com/files/7972/screenshot_15338.png" alt=""></p>
 <h2 id="Usage"><a href="#Usage" class="headerlink" title="Usage:"></a>Usage:</h2><p>a. copy lines with future style from your layout.xml file<br>b. paste it to styles.xml file with Ctrl+Shift+D (or context menu)<br>c. enter name of new style in the modal window<br>d. your style is prepared!</p>
 <h1 id="13-Android-Drawable-Importer"><a href="#13-Android-Drawable-Importer" class="headerlink" title="13.Android Drawable Importer"></a>13.<a href="http://plugins.jetbrains.com/plugin/7658?pr=androidstudio" target="_blank" rel="external">Android Drawable Importer</a></h1><p>这是一个非常强大的图片导入插件。它导入Android图标与Material图标的Drawable ，批量导入Drawable ，多源导入Drawable（即导入某张图片各种dpi对应的图片）</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7658/screenshot_15535.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7658/screenshot_15691.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7658/screenshot_15533.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7658/screenshot_15537.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7658/screenshot_15536.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7658/screenshot_15534.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7658/screenshot_15532.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7658/screenshot_15351.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://plugins.jetbrains.com/files/7658/screenshot_15535.png" alt=""><br><img src="http://plugins.jetbrains.com/files/7658/screenshot_15691.png" alt=""><br><img src="http://plugins.jetbrains.com/files/7658/screenshot_15533.png" alt=""><br><img src="http://plugins.jetbrains.com/files/7658/screenshot_15537.png" alt=""><br><img src="http://plugins.jetbrains.com/files/7658/screenshot_15536.png" alt=""><br><img src="http://plugins.jetbrains.com/files/7658/screenshot_15534.png" alt=""><br><img src="http://plugins.jetbrains.com/files/7658/screenshot_15532.png" alt=""><br><img src="http://plugins.jetbrains.com/files/7658/screenshot_15351.png" alt=""></p>
 <h1 id="14-SelectorChapek-for-Android"><a href="#14-SelectorChapek-for-Android" class="headerlink" title="14.SelectorChapek for Android"></a>14.<a href="http://plugins.jetbrains.com/plugin/7298?pr=androidstudio" target="_blank" rel="external">SelectorChapek for Android</a></h1><p>通过资源文件命名自动生成Selector文件。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7298/screenshot_14292.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7298/screenshot_14291.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7298/screenshot_14290.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://plugins.jetbrains.com/files/7298/screenshot_14292.png" alt=""><br><img src="http://plugins.jetbrains.com/files/7298/screenshot_14291.png" alt=""><br><img src="http://plugins.jetbrains.com/files/7298/screenshot_14290.png" alt=""></p>
 <h1 id="15-GenerateSerialVersionUID"><a href="#15-GenerateSerialVersionUID" class="headerlink" title="15.GenerateSerialVersionUID"></a>15.<a href="http://plugins.jetbrains.com/plugin/185?pr=androidstudio" target="_blank" rel="external">GenerateSerialVersionUID</a></h1><p>实现Serializable序列化bean</p>
 <p>Adds a new action ‘SerialVersionUID’ in the generate menu (alt + ins). The action adds an serialVersionUID field in the current class or updates it if it already exists, and assigns it the same value the standard ‘serialver’ JDK tool would return. The action is only visible when IDEA is not rebuilding its indexes, the class is serializable and either no serialVersionUID field exists or its value is different from the one the ‘serialver’ tool would return.</p>
 <h1 id="16-genymotion"><a href="#16-genymotion" class="headerlink" title="16.genymotion"></a>16.<a href="http://plugins.jetbrains.com/plugin/7269?pr=androidstudio" target="_blank" rel="external">genymotion</a></h1><p>速度较快的android模拟器</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7269/screenshot_14278.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://plugins.jetbrains.com/files/7269/screenshot_14278.png" alt=""></p>
 <h1 id="17-LeakCanary"><a href="#17-LeakCanary" class="headerlink" title="17.LeakCanary"></a>17.<a href="https://github.com/square/leakcanary" target="_blank" rel="external">LeakCanary</a></h1><p>帮助你在开发阶段方便的检测出内存泄露的问题，使用起来更简单方便。<br>可以参考以下文章：<br><a href="http://www.liaohuqiu.net/cn/posts/leak-canary-read-me/" target="_blank" rel="external">LeakCanary 中文使用说明</a></p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://stormzhang.com/image/leakcaneray.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://stormzhang.com/image/leakcaneray.png" alt=""></p>
 <h1 id="18-Android-Postfix-Completion"><a href="#18-Android-Postfix-Completion" class="headerlink" title="18.Android Postfix Completion"></a>18.<a href="http://plugins.jetbrains.com/plugin/7775?pr=androidstudio" target="_blank" rel="external">Android Postfix Completion</a></h1><p>可根据后缀快速完成代码，这个属于拓展吧，系统已经有这些功能，如sout、notnull等，这个插件在原有的基础上增添了一些新的功能，我更想做的是通过原作者的代码自己定制功能，那就更爽了</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://plugins.jetbrains.com/files/7775/screenshot_15042.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://plugins.jetbrains.com/files/7775/screenshot_15042.png" alt=""></p>
 <h1 id="19-Android-Holo-Colors-Generator"><a href="#19-Android-Holo-Colors-Generator" class="headerlink" title="19.Android Holo Colors Generator"></a>19.<a href="https://plugins.jetbrains.com/plugin/7366?pr=" target="_blank" rel="external">Android Holo Colors Generator</a></h1><p>通过自定义Holo主题颜色生成对应的Drawable和布局文件</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://plugins.jetbrains.com/files/7366/screenshot_14379.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://plugins.jetbrains.com/files/7366/screenshot_14379.png" alt=""></p>
 <h1 id="20-dagger-intellij-plugin"><a href="#20-dagger-intellij-plugin" class="headerlink" title="20.dagger-intellij-plugin"></a>20.<a href="https://github.com/square/dagger-intellij-plugin" target="_blank" rel="external">dagger-intellij-plugin</a></h1><p>dagger可视化辅助工具</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://github.com/square/dagger-intellij-plugin/raw/master/images/inject-to-provide.gif" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://github.com/square/dagger-intellij-plugin/raw/master/images/inject-to-provide.gif" alt=""></p>
 <h1 id="21-GradleDependenciesHelperPlugin"><a href="#21-GradleDependenciesHelperPlugin" class="headerlink" title="21.GradleDependenciesHelperPlugin"></a>21.<a href="https://github.com/ligi/GradleDependenciesHelperPlugin" target="_blank" rel="external">GradleDependenciesHelperPlugin</a></h1><p>maven gradle 依赖支持自动补全</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://camo.githubusercontent.com/d9b1b39eda21e0e33b656e2821f01897d915f7c5/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f2d51364e7970315864594c772f556a73325a5175666634492f414141414141414144624d2f624d704c516742664d6b632f773538372d683330392d6e6f2f696465615f677261646c655f706c7567696e2e706e67" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://camo.githubusercontent.com/d9b1b39eda21e0e33b656e2821f01897d915f7c5/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f2d51364e7970315864594c772f556a73325a5175666634492f414141414141414144624d2f624d704c516742664d6b632f773538372d683330392d6e6f2f696465615f677261646c655f706c7567696e2e706e67" alt=""></p>
 <h1 id="22-RemoveButterKnife"><a href="#22-RemoveButterKnife" class="headerlink" title="22.RemoveButterKnife"></a>22.<a href="https://github.com/u3shadow/RemoveButterKnife" target="_blank" rel="external">RemoveButterKnife</a></h1><p>ButterKnife这个第三方库每次更新之后，绑定view的注解都会改变，从bind,到inject，再到bindview，搞得很多人都不敢升级，一旦升级，就会有巨量的代码需要手动修改，非常痛苦<br>当我们有一些非常棒的代码需要拿到其他项目使用，但是我们发现，那个项目对第三方库的使用是有限制的，我们不能使用butterknife，这时候，我们又得从注解改回findviewbyid<br>针对上面的两种情况，如果view比较少还好说，如果有几十个view，那么我们一个个的手动删除注解，写findviewbyid语句，简直是一场噩梦（别问我为什么知道这是噩梦）<br>所以，这种有规律又重复简单的工作为什么不能用一个插件来实现呢？于是RemoveButterKnife的想法就出现了。</p>
 <p><a href="http://www.u3coding.com/2016/06/24/androidstudio-plugin-removebutterknife-di/" target="_blank" rel="external">具体介绍</a></p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://camo.githubusercontent.com/0327cda5b531ab6f2b803abe295c42225668d28d/687474703a2f2f7777772e7533636f64696e672e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031362f30362f312e676966" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://camo.githubusercontent.com/0327cda5b531ab6f2b803abe295c42225668d28d/687474703a2f2f7777772e7533636f64696e672e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031362f30362f312e676966" alt=""></p>
 <h1 id="23-AndroidProguardPlugin"><a href="#23-AndroidProguardPlugin" class="headerlink" title="23.AndroidProguardPlugin"></a>23.<a href="https://github.com/zhonghanwen/AndroidProguardPlugin" target="_blank" rel="external">AndroidProguardPlugin</a></h1><p>一键生成项目混淆代码插件，值得你安装~(不过目前可能有些第三方项目的混淆还未添加完全)</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://7xrnko.com1.z0.glb.clouddn.com/androidproguard1.gif" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://7xrnko.com1.z0.glb.clouddn.com/androidproguard1.gif" alt=""></p>
 <h1 id="24-otto-intellij-plugin"><a href="#24-otto-intellij-plugin" class="headerlink" title="24.otto-intellij-plugin"></a>24.<a href="https://github.com/square/otto-intellij-plugin" target="_blank" rel="external">otto-intellij-plugin</a></h1><p>otto事件导航工具。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://github.com/square/otto-intellij-plugin/raw/master/images/produce-to-subscribe.gif" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://github.com/square/otto-intellij-plugin/raw/master/images/event-to-subscribe.gif" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://github.com/square/otto-intellij-plugin/raw/master/images/produce-to-subscribe.gif" alt=""><br><img src="https://github.com/square/otto-intellij-plugin/raw/master/images/event-to-subscribe.gif" alt=""></p>
 <h1 id="25-eventbus-intellij-plugin"><a href="#25-eventbus-intellij-plugin" class="headerlink" title="25.eventbus-intellij-plugin"></a>25.<a href="https://github.com/kgmyshin/eventbus-intellij-plugin" target="_blank" rel="external">eventbus-intellij-plugin</a></h1><p>eventbus导航插件(对于最新版的 EventBus 3.0.0 好像无效,请替换为eventbus3-intellij-plugin此插件地址在本文第51个)</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://raw.githubusercontent.com/kgmyshin/eventbus-intellij-plugin/master/art/cap.gif" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://raw.githubusercontent.com/kgmyshin/eventbus-intellij-plugin/master/art/cap.gif" alt=""></p>
 <h1 id="26-idea-markdown"><a href="#26-idea-markdown" class="headerlink" title="26.idea-markdown"></a>26.<a href="https://github.com/nicoulaj/idea-markdown" target="_blank" rel="external">idea-markdown</a></h1><p>markdown插件</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://github.com/nicoulaj/idea-markdown/raw/assets/screenshots/preview.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://github.com/nicoulaj/idea-markdown/raw/assets/screenshots/preview.png" alt=""></p>
 <h1 id="27-Sexy-Editor"><a href="#27-Sexy-Editor" class="headerlink" title="27.Sexy Editor"></a>27.<a href="https://plugins.jetbrains.com/plugin/1833?pr=androidstudio" target="_blank" rel="external">Sexy Editor</a></h1><p>设置AS代码编辑区的背景图</p>
-<p>首先点击界面的设置按钮 进入设置界面，选中Plugins,右边选择 Browser … ，输入Sexy … 下面自动弹出候选插件，右边点击Install 安装<br><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://d.hiphotos.baidu.com/zhidao/wh%3D600%2C800/sign=f57bdd37f0246b607b5bba72dbc83674/4b90f603738da9777260054fb651f8198618e303.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure><br>安装成功 后需要重启AS<br><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://h.hiphotos.baidu.com/zhidao/wh%3D600%2C800/sign=77e4e517fdf2b211e47b8d48fab04900/1c950a7b02087bf46d0dd48df4d3572c10dfcff5.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure><br>重启完成之后 进入设置界面 选择other Setting 下的Sexy Editor ， 右侧 insert 一张或多张图片即可，上面的其他设置可以设置方位 间隔时间 透明度等等，设置完成后，要关闭打开的文件，重新打开项目文件即可在代码编辑区显示插入的图片，作为代码编辑区的背景图。<br><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://h.hiphotos.baidu.com/zhidao/wh%3D600%2C800/sign=5cd9b28564d9f2d320442ce999dca62b/34fae6cd7b899e51289eb77044a7d933c8950d45.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure></p>
+<p>首先点击界面的设置按钮 进入设置界面，选中Plugins,右边选择 Browser … ，输入Sexy … 下面自动弹出候选插件，右边点击Install 安装<br><img src="http://d.hiphotos.baidu.com/zhidao/wh%3D600%2C800/sign=f57bdd37f0246b607b5bba72dbc83674/4b90f603738da9777260054fb651f8198618e303.jpg" alt=""><br>安装成功 后需要重启AS<br><img src="http://h.hiphotos.baidu.com/zhidao/wh%3D600%2C800/sign=77e4e517fdf2b211e47b8d48fab04900/1c950a7b02087bf46d0dd48df4d3572c10dfcff5.jpg" alt=""><br>重启完成之后 进入设置界面 选择other Setting 下的Sexy Editor ， 右侧 insert 一张或多张图片即可，上面的其他设置可以设置方位 间隔时间 透明度等等，设置完成后，要关闭打开的文件，重新打开项目文件即可在代码编辑区显示插入的图片，作为代码编辑区的背景图。<br><img src="http://h.hiphotos.baidu.com/zhidao/wh%3D600%2C800/sign=5cd9b28564d9f2d320442ce999dca62b/34fae6cd7b899e51289eb77044a7d933c8950d45.jpg" alt=""></p>
 <h1 id="28-folding-plugin"><a href="#28-folding-plugin" class="headerlink" title="28.folding-plugin"></a>28.<a href="https://github.com/dmytrodanylyk/folding-plugin" target="_blank" rel="external">folding-plugin</a></h1><p>布局文件分组的插件</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://github.com/dmytrodanylyk/folding-plugin/raw/master/screenshots/Preview.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://github.com/dmytrodanylyk/folding-plugin/raw/master/screenshots/Preview.png" alt=""></p>
 <h1 id="29-Android-DPI-Calculator"><a href="#29-Android-DPI-Calculator" class="headerlink" title="29.Android-DPI-Calculator"></a>29.<a href="https://github.com/JerzyPuchalski/Android-DPI-Calculator" target="_blank" rel="external">Android-DPI-Calculator</a></h1><p>DPI计算插件</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://camo.githubusercontent.com/ce3be2aaa3b1f70b90f5b825c529694509d70313/68747470733a2f2f7261772e6769746875622e636f6d2f4a65727a7950756368616c736b692f416e64726f69642d4450492d43616c63756c61746f722f6d61737465722f696d672f6469616c6f672e706e67" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<p>使用：<br><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://camo.githubusercontent.com/598d3b5c9efc5f0b57b58c25a79a323d06307fad/68747470733a2f2f7261772e6769746875622e636f6d2f4a65727a7950756368616c736b692f416e64726f69642d4450492d43616c63756c61746f722f6d61737465722f696d672f616374696f6e2e706e67" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure><br>或者<br><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://camo.githubusercontent.com/7a8f977de7a1ba6cd23fb64cbd37566690c27cdc/68747470733a2f2f7261772e6769746875622e636f6d2f4a65727a7950756368616c736b692f416e64726f69642d4450492d43616c63756c61746f722f6d61737465722f696d672f6d656e752e706e67" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure></p>
+<p><img src="https://camo.githubusercontent.com/ce3be2aaa3b1f70b90f5b825c529694509d70313/68747470733a2f2f7261772e6769746875622e636f6d2f4a65727a7950756368616c736b692f416e64726f69642d4450492d43616c63756c61746f722f6d61737465722f696d672f6469616c6f672e706e67" alt=""></p>
+<p>使用：<br><img src="https://camo.githubusercontent.com/598d3b5c9efc5f0b57b58c25a79a323d06307fad/68747470733a2f2f7261772e6769746875622e636f6d2f4a65727a7950756368616c736b692f416e64726f69642d4450492d43616c63756c61746f722f6d61737465722f696d672f616374696f6e2e706e67" alt=""><br>或者<br><img src="https://camo.githubusercontent.com/7a8f977de7a1ba6cd23fb64cbd37566690c27cdc/68747470733a2f2f7261772e6769746875622e636f6d2f4a65727a7950756368616c736b692f416e64726f69642d4450492d43616c63756c61746f722f6d61737465722f696d672f6d656e752e706e67" alt=""></p>
 <h1 id="30-gradle-retrolambda"><a href="#30-gradle-retrolambda" class="headerlink" title="30.gradle-retrolambda"></a>30.<a href="https://github.com/evant/gradle-retrolambda" target="_blank" rel="external">gradle-retrolambda</a></h1><p>在java 6 7中使用 lambda表达式插件</p>
-<p>修改编译的jdk为java8:<br><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://img.blog.csdn.net/20160311101644127" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure></p>
+<p>修改编译的jdk为java8:<br><img src="http://img.blog.csdn.net/20160311101644127" alt=""></p>
 <h1 id="31-Android-Studio-Prettify"><a href="#31-Android-Studio-Prettify" class="headerlink" title="31.Android Studio Prettify"></a>31.<a href="https://plugins.jetbrains.com/plugin/7405" target="_blank" rel="external">Android Studio Prettify</a></h1><p>可以将代码中的字符串写在string.xml文件中</p>
-<p>选中字符串鼠标右键选择图中所示<br><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://plugins.jetbrains.com/files/7405/screenshot_14417.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure></p>
-<p>这个插件还可以自动书写findViewById<br><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://plugins.jetbrains.com/files/7405/screenshot_14418.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure></p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://plugins.jetbrains.com/files/7405/screenshot_14416.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://plugins.jetbrains.com/files/7405/screenshot_14501.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://plugins.jetbrains.com/files/7405/screenshot_14419.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://plugins.jetbrains.com/files/7405/screenshot_14415.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p>选中字符串鼠标右键选择图中所示<br><img src="https://plugins.jetbrains.com/files/7405/screenshot_14417.png" alt=""></p>
+<p>这个插件还可以自动书写findViewById<br><img src="https://plugins.jetbrains.com/files/7405/screenshot_14418.png" alt=""></p>
+<p><img src="https://plugins.jetbrains.com/files/7405/screenshot_14416.png" alt=""></p>
+<p><img src="https://plugins.jetbrains.com/files/7405/screenshot_14501.png" alt=""></p>
+<p><img src="https://plugins.jetbrains.com/files/7405/screenshot_14419.png" alt=""></p>
+<p><img src="https://plugins.jetbrains.com/files/7405/screenshot_14415.png" alt=""></p>
 <h1 id="32-Material-Theme-UI"><a href="#32-Material-Theme-UI" class="headerlink" title="32.Material Theme UI"></a>32.<a href="https://plugins.jetbrains.com/plugin/8006?pr=" target="_blank" rel="external">Material Theme UI</a></h1><p>添加Material主题到你的AS</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://plugins.jetbrains.com/files/8006/screenshot_15722.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://plugins.jetbrains.com/files/8006/screenshot_15723.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://plugins.jetbrains.com/files/8006/screenshot_15721.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://plugins.jetbrains.com/files/8006/screenshot_15722.png" alt=""></p>
+<p><img src="https://plugins.jetbrains.com/files/8006/screenshot_15723.png" alt=""></p>
+<p><img src="https://plugins.jetbrains.com/files/8006/screenshot_15721.png" alt=""></p>
 <h1 id="33-ignore"><a href="#33-ignore" class="headerlink" title="33..ignore"></a>33.<a href="https://plugins.jetbrains.com/plugin/7495?pr=" target="_blank" rel="external">.ignore</a></h1><p>我们都知道在Git 中想要过滤掉一些不想提交的文件，可以把相应的文件添加到.gitignore 中，而.gitignore 这个Android Studio 插件根据不同的语言来选择模板，就不用自己在费事添加一些文件了，而且还有自动补全功能，过滤文件再也不要复制文件名了。我们做项目的时候，并不是所有文件都是要提交的，比如构建的build 文件夹，本地配置文件，每个Module 生成的iml 文件，但是我们每次add，commit 都会不小心把它们添加上去，而gitignore 就是解决这种痛点的，如果你不想提交的文件，就可以在创建项目的时候将这个文件中添加即可，将一些通用的东西屏蔽掉。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://plugins.jetbrains.com/files/7495/screenshot_14960.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://plugins.jetbrains.com/files/7495/screenshot_14958.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://plugins.jetbrains.com/files/7495/screenshot_14959.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://plugins.jetbrains.com/files/7495/screenshot_14960.png" alt=""></p>
+<p><img src="https://plugins.jetbrains.com/files/7495/screenshot_14958.png" alt=""></p>
+<p><img src="https://plugins.jetbrains.com/files/7495/screenshot_14959.png" alt=""></p>
 <h1 id="34-CheckStyle-IDEA"><a href="#34-CheckStyle-IDEA" class="headerlink" title="34.CheckStyle-IDEA"></a>34.<a href="https://plugins.jetbrains.com/plugin/1065?pr=" target="_blank" rel="external">CheckStyle-IDEA</a></h1><p>CheckStyle-IDEA 是一个检查代码风格的插件，比如像命名约定，Javadoc，类设计等方面进行代码规范和风格的检查，你们可以遵从像Google Oracle 的Java 代码指南 ，当然也可以按照自己的规则来设置配置文件，从而有效约束你自己更好地遵循代码编写规范。</p>
 <h1 id="35-Markdown-Navigator"><a href="#35-Markdown-Navigator" class="headerlink" title="35.Markdown Navigator"></a>35.<a href="https://plugins.jetbrains.com/plugin/7896?pr=" target="_blank" rel="external">Markdown Navigator</a></h1><p>github:<a href="https://github.com/vsch/idea-multimarkdown/wiki" target="_blank" rel="external">Markdown Navigator</a><br>Markdown插件</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://plugins.jetbrains.com/files/7896/screenshot_15818.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://plugins.jetbrains.com/files/7896/screenshot_15818.png" alt=""></p>
 <h1 id="36-ECTranslation"><a href="#36-ECTranslation" class="headerlink" title="36.ECTranslation"></a>36.<a href="https://github.com/Skykai521/ECTranslation" target="_blank" rel="external">ECTranslation</a></h1><p>Android Studio Plugin,Translate English to Chinese. Android Studio 翻译插件,可以将英文翻译为中文。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://github.com/Skykai521/ECTranslation/raw/master/img/translation_img.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://github.com/Skykai521/ECTranslation/raw/master/img/translation_img.png" alt=""></p>
 <h1 id="37-PermissionsDispatcher-plugin"><a href="#37-PermissionsDispatcher-plugin" class="headerlink" title="37.PermissionsDispatcher plugin"></a>37.<a href="https://plugins.jetbrains.com/plugin/8349" target="_blank" rel="external">PermissionsDispatcher plugin</a></h1><p>github:<a href="https://github.com/shiraji/permissions-dispatcher-plugin" target="_blank" rel="external">PermissionsDispatcher plugin</a><br>自动生成6.0权限的代码</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://github.com/shiraji/permissions-dispatcher-plugin/raw/master/website/images/pd.gif" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://github.com/shiraji/permissions-dispatcher-plugin/raw/master/website/images/pd.gif" alt=""></p>
 <h1 id="38-WakaTime"><a href="#38-WakaTime" class="headerlink" title="38.WakaTime"></a>38.<a href="https://plugins.jetbrains.com/plugin/7425?pr=" target="_blank" rel="external">WakaTime</a></h1><p>github:<a href="https://github.com/wakatime/jetbrains-wakatime" target="_blank" rel="external">WakaTime</a><br>记录你在IDE上的工作时间</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://plugins.jetbrains.com/files/7425/screenshot_14794.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://plugins.jetbrains.com/files/7425/screenshot_14794.png" alt=""></p>
 <h1 id="39-AndroidWiFiADB"><a href="#39-AndroidWiFiADB" class="headerlink" title="39.AndroidWiFiADB"></a>39.<a href="https://github.com/pedrovgs/AndroidWiFiADB" target="_blank" rel="external">AndroidWiFiADB</a></h1><p>无线调试应用</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://github.com/pedrovgs/AndroidWiFiADB/raw/master/art/screenshot1.gif" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://github.com/pedrovgs/AndroidWiFiADB/raw/master/art/android_devices_window.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://github.com/pedrovgs/AndroidWiFiADB/raw/master/art/screenshot1.gif" alt=""></p>
+<p><img src="https://github.com/pedrovgs/AndroidWiFiADB/raw/master/art/android_devices_window.png" alt=""></p>
 <h1 id="40-AndroidLocalizationer"><a href="#40-AndroidLocalizationer" class="headerlink" title="40.AndroidLocalizationer"></a>40.<a href="https://github.com/westlinkin/AndroidLocalizationer" target="_blank" rel="external">AndroidLocalizationer</a></h1><p>可用于将项目中的 string 资源自动翻译为其他语言的 Android Studio/IntelliJ IDEA 插件</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://raw.githubusercontent.com/westlinkin/AndroidLocalizationer/master/screen_shot_3.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://raw.githubusercontent.com/westlinkin/AndroidLocalizationer/master/screen_shot_2.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://raw.githubusercontent.com/westlinkin/AndroidLocalizationer/master/screen_shot_3.png" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/westlinkin/AndroidLocalizationer/master/screen_shot_2.png" alt=""></p>
 <h1 id="41-TranslationPlugin"><a href="#41-TranslationPlugin" class="headerlink" title="41.TranslationPlugin"></a>41.<a href="https://github.com/YiiGuxing/TranslationPlugin" target="_blank" rel="external">TranslationPlugin</a></h1><p>又一翻译插件,可中英互译。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://raw.githubusercontent.com/YiiGuxing/TranslationPlugin/master/images/1.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://raw.githubusercontent.com/YiiGuxing/TranslationPlugin/master/images/3.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://raw.githubusercontent.com/YiiGuxing/TranslationPlugin/master/images/1.png" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/YiiGuxing/TranslationPlugin/master/images/3.png" alt=""></p>
 <h1 id="42-SingletonTest"><a href="#42-SingletonTest" class="headerlink" title="42.SingletonTest"></a>42.<a href="https://github.com/luhaoaimama1/SingletonTest" target="_blank" rel="external">SingletonTest</a></h1><p>快速生成单例模式的预设</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://github.com/luhaoaimama1/SingletonTest/raw/master/demo/tip1.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://github.com/luhaoaimama1/SingletonTest/raw/master/demo/tip2.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://github.com/luhaoaimama1/SingletonTest/raw/master/demo/tip3.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://github.com/luhaoaimama1/SingletonTest/raw/master/demo/tip1.png" alt=""></p>
+<p><img src="https://github.com/luhaoaimama1/SingletonTest/raw/master/demo/tip2.png" alt=""></p>
+<p><img src="https://github.com/luhaoaimama1/SingletonTest/raw/master/demo/tip3.png" alt=""></p>
 <h1 id="43-BorePlugin"><a href="#43-BorePlugin" class="headerlink" title="43.BorePlugin"></a>43.<a href="https://github.com/boredream/BorePlugin" target="_blank" rel="external">BorePlugin</a></h1><p>Android Studio 自动生成布局代码插件</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://github.com/boredream/BorePlugin/raw/master/screenshot/LayoutCreator.gif" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://github.com/boredream/BorePlugin/raw/master/screenshot/LayoutCreator.gif" alt=""></p>
 <h2 id="代码生成规则"><a href="#代码生成规则" class="headerlink" title="代码生成规则"></a>代码生成规则</h2><p>a.自动遍历目标布局中所有带id的文件, 无id的不会识别处理<br>b.控件生成的变量名默认为id名称, 可以在弹出确认框右侧的名称输入栏中自行修改<br>c.所有的Button或者带clickable=true的控件, 都会自动在代码中生成setOnClickListener相关代码<br>d.所有EditText控件, 都会在代码中生成非空判断代码, 如果为空会提示EditText的hint内容, 如果hint为空则提示xxx字符串不能为空字样, 最后会把所有输入框的验证合并到一个submit方法中<br>e.会自动识别布局中的include标签, 并读取对应布局中的控件</p>
 <h1 id="44-jimu-Mirror"><a href="#44-jimu-Mirror" class="headerlink" title="44.jimu Mirror"></a>44.<a href="http://www.jimumirror.com/mirror-downloads/" target="_blank" rel="external">jimu Mirror</a></h1><p>能够实时预览Android布局，它会监听布局文件的改动，如果有代码变化，就会立即刷新UI。</p>
 <h1 id="45-jRebel-For-Android"><a href="#45-jRebel-For-Android" class="headerlink" title="45.jRebel For Android"></a>45.<a href="http://zeroturnaround.com/software/jrebel-for-android/" target="_blank" rel="external">jRebel For Android</a></h1><p>不仅能够做到UI布局的实时预览，它甚至做到了让你更改java代码后就能实时替换apk中的类文件，达到应用实时刷新，官网的介绍是：Skip build, install and run，因此它可以节约我们很多很多的时间，它的效果也十分不错。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://zeroturnaround.com/wp-content/uploads/2015/04/Android_Card1_2x.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://zeroturnaround.com/wp-content/uploads/2015/04/Android_Card2_2x.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://zeroturnaround.com/wp-content/uploads/2015/04/Android_Card3_2x.png" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://zeroturnaround.com/wp-content/uploads/2015/04/Android_Card1_2x.png" alt=""></p>
+<p><img src="http://zeroturnaround.com/wp-content/uploads/2015/04/Android_Card2_2x.png" alt=""></p>
+<p><img src="http://zeroturnaround.com/wp-content/uploads/2015/04/Android_Card3_2x.png" alt=""></p>
 <h1 id="46-sdk-manager-plugin"><a href="#46-sdk-manager-plugin" class="headerlink" title="46.sdk-manager-plugin"></a>46.<a href="https://github.com/JakeWharton/sdk-manager-plugin" target="_blank" rel="external">sdk-manager-plugin</a></h1><p>SDK管理插件，自动检测更新并下载。(图片与插件无关哈)</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://camo.githubusercontent.com/95469d65798f62a50a9fcabe21e2cc303a1b859c/687474703a2f2f692e696d6775722e636f6d2f384a734a587a6e2e6a7067" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://camo.githubusercontent.com/95469d65798f62a50a9fcabe21e2cc303a1b859c/687474703a2f2f692e696d6775722e636f6d2f384a734a587a6e2e6a7067" alt=""></p>
 <h1 id="47-Codota"><a href="#47-Codota" class="headerlink" title="47.Codota"></a>47.<a href="http://www.codota.com/" target="_blank" rel="external">Codota</a></h1><p>搜索最好的Android代码。(Studio里面直接可以搜到此插件)</p>
 <h1 id="48-LayoutFormatter"><a href="#48-LayoutFormatter" class="headerlink" title="48.LayoutFormatter"></a>48.<a href="https://github.com/drakeet/LayoutFormatter" target="_blank" rel="external">LayoutFormatter</a></h1><p>drakeet 开发一个一键格式化你的 XML 文件的 Android Studio 插件，至于为什么不用 Android Studio 自带的格式化功能而用这个插件，可以看下作者的一篇 Blog -&gt; <a href="https://drakeet.me/layoutformatter" target="_blank" rel="external">当我们谈 XML 布局文件代码的优雅性</a></p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://ww1.sinaimg.cn/large/86e2ff85gw1f383wa95tej21ge0m5ai0.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://ww1.sinaimg.cn/large/86e2ff85gw1f383wa95tej21ge0m5ai0.jpg" alt=""></p>
 <h1 id="49-android-strings-search-plugin"><a href="#49-android-strings-search-plugin" class="headerlink" title="49.android-strings-search-plugin"></a>49.<a href="https://github.com/konifar/android-strings-search-plugin" target="_blank" rel="external">android-strings-search-plugin</a></h1><p>一个可以通过输入文字找到strings.xml资源的插件</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://github.com/konifar/android-strings-search-plugin/raw/master/art/demo.gif" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://github.com/konifar/android-strings-search-plugin/raw/master/art/demo.gif" alt=""></p>
 <h1 id="50-ideaVim"><a href="#50-ideaVim" class="headerlink" title="50.ideaVim"></a>50.<a href="http://plugins.jetbrains.com/plugin/164?pr=androidstudio" target="_blank" rel="external">ideaVim</a></h1><p>vim 本身就是一款很优秀的文本编辑器，而Android Studio 更是一款编写APP应用的神器。如果两个款优秀的软件结合在一起感觉会怎样呢？<br>详细请看文章:<a href="http://www.jianshu.com/p/43862126b88f" target="_blank" rel="external">Android Studio ＋Vim</a></p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://upload-images.jianshu.io/upload_images/1825722-8b55d9654777599e.gif?imageMogr2/auto-orient/strip" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://upload-images.jianshu.io/upload_images/1825722-8b55d9654777599e.gif?imageMogr2/auto-orient/strip" alt=""></p>
 <h1 id="51-eventbus3-intellij-plugin"><a href="#51-eventbus3-intellij-plugin" class="headerlink" title="51.eventbus3-intellij-plugin"></a>51.<a href="https://github.com/likfe/eventbus3-intellij-plugin/blob/master/README-zh.md" target="_blank" rel="external">eventbus3-intellij-plugin</a></h1><p>引导 EventBus 的 post 和 event(对于最新版的 EventBus 3.0.0 有效)<br>主要Bug修复工作：<br>修改包名和方法名以适应 EventBus 3.X<br>替换一个在新版的 intellij plugin SDK 已经不存在的类<br>增加若干 try-catch ，防止插件崩溃</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://raw.githubusercontent.com/likfe/eventbus3-intellij-plugin/master/art/cap.gif" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://raw.githubusercontent.com/likfe/eventbus3-intellij-plugin/master/art/cap.gif" alt=""></p>
 <h1 id="52-Exynap"><a href="#52-Exynap" class="headerlink" title="52.Exynap"></a>52.<a href="http://exynap.com/" target="_blank" rel="external">Exynap</a></h1><p>Exynap 一个帮助开发者自动生成样板代码的 AndroidStudio 插件</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="http://exynap.com/images/anim01.gif" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="http://exynap.com/images/anim01.gif" alt=""></p>
 <h1 id="53-gradle-cleaner-intellij-plugin"><a href="#53-gradle-cleaner-intellij-plugin" class="headerlink" title="53.gradle-cleaner-intellij-plugin"></a>53.<a href="https://github.com/Softwee/gradle-cleaner-intellij-plugin" target="_blank" rel="external">gradle-cleaner-intellij-plugin</a></h1><p>Force clear delaying &amp; no longer needed Gradle tasks.</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://camo.githubusercontent.com/cb48bca7f8bd0b513f350f7320c74054d1b9fbce/687474703a2f2f6936352e74696e797069632e636f6d2f726a687863382e706e67" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://camo.githubusercontent.com/cb48bca7f8bd0b513f350f7320c74054d1b9fbce/687474703a2f2f6936352e74696e797069632e636f6d2f726a687863382e706e67" alt=""></p>
 <h1 id="54-MVPHelper"><a href="#54-MVPHelper" class="headerlink" title="54.MVPHelper"></a>54.<a href="http://androidwing.net/index.php/27" target="_blank" rel="external">MVPHelper</a></h1><p>一款Intellj IDEA 和Android Studio的插件，可以为MVP生成接口以及实现类，解放双手。<br>具体请查看<a href="http://androidwing.net/index.php/27" target="_blank" rel="external">Android Studio插件之MVPHelper，一键生成MVP代码</a>一文</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://github.com/githubwing/MVPHelper/raw/master/img/mvp_presenter.gif" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://github.com/githubwing/MVPHelper/raw/master/img/mvp_presenter.gif" alt=""></p>
 <p>如果还有更好玩更好用的插件欢迎fork + pull request</p>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;figure class=&quot;image-bubble&quot;&gt;
-                &lt;div class=&quot;img-lightbox&quot;&gt;
-                    &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
-                   
+      &lt;p&gt;&lt;img src=&quot;https://img.shields.io/github/stars/itgoyo/Android-Studio-Plugins.svg?style=social&amp;amp;label=Star&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;#1.&lt;a href=&quot;h
     
     </summary>
     
@@ -6259,13 +5355,7 @@ inflater.inflate(R.layout.view, root, true);
 <h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p>以上内容采用 <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh" target="_blank" rel="external">CC BY-NC-SA 3.0</a> 进行许可, 转载请注明出处, 版权归本人及所有贡献者所有</p>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
@@ -6299,13 +5389,7 @@ inflater.inflate(R.layout.view, root, true);
 <p>又因为StringBuilder是线程不安全的，StringBuffer是线程安全的，所以StringBuilder比StringBuffer要快。</p>
 <hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
@@ -6328,13 +5412,7 @@ inflater.inflate(R.layout.view, root, true);
     <published>2017-06-23T12:13:26.000Z</published>
     <updated>2017-06-23T12:29:30.000Z</updated>
     
-    <content type="html"><![CDATA[<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://img.shields.io/github/stars/JetBrains/kotlin.svg?style=social&label=Star" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+    <content type="html"><![CDATA[<p><img src="https://img.shields.io/github/stars/JetBrains/kotlin.svg?style=social&amp;label=Star" alt=""></p>
 <p>项目地址：<a href="https://github.com/JetBrains/kotlin" target="_blank" rel="external">https://github.com/JetBrains/kotlin</a></p>
 <p>简介：Kotlin是一种在Java虚拟机上运行的静态类型编程语言，它也可以被编译成为JavaScript源代码。它主要是由俄罗斯圣彼得堡的JetBrains开发团队所发展出来的编程语言，其名称来自于圣彼得堡附近的科特林岛。[2]2012年1月，著名期刊《Dr. Dobb’s Journal（英语：Dr. Dobb’s Journal）》中Kotlin被认定为该月的最佳语言。[3]虽然与Java语法并不兼容，但Kotlin被设计成可以和Java代码相互运作，并可以重复使用如Java集合框架等的现有Java类库。</p>
 <p>更多：The Kotlin Programming Language <a href="http://kotlinlang.org/" target="_blank" rel="external">http://kotlinlang.org/</a></p>
@@ -6444,21 +5522,13 @@ mvn install
 <pre><code>#KT-1234 Fixed
 </code></pre><hr>
 <p>如果你有兴趣加入我们，请直接关注公众号 Kotlinandroid ，或者加 QQ 群：465280882</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/arts/kotlin_group.jpg" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/arts/kotlin_group.jpg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;figure class=&quot;image-bubble&quot;&gt;
-                &lt;div class=&quot;img-lightbox&quot;&gt;
-                    &lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
-                   
+      &lt;p&gt;&lt;img src=&quot;https://img.shields.io/github/stars/JetBrains/kotlin.svg?style=social&amp;amp;label=Star&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;项目地址：&lt;a href=&quot;https://gith
     
     </summary>
     
@@ -6819,13 +5889,7 @@ mvn install
 <li>provideDelegate</li>
 </ul>
 <h2 id="2、Kotlin-元年"><a href="#2、Kotlin-元年" class="headerlink" title="2、Kotlin 元年"></a>2、Kotlin 元年</h2><p>2016 年是 Kotlin “元年（First year of Kotlin）”，官网给出了这样一幅图来展示它一年来的成绩：</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://d3nmt5vlzunoa1.cloudfront.net/kotlin/files/2017/03/GitHub-Stats-1.gif" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="https://d3nmt5vlzunoa1.cloudfront.net/kotlin/files/2017/03/GitHub-Stats-1.gif" alt=""></p>
 <p>Github 上面的代码量都破千万了，使用 Kotlin 的公司也逐渐增多，除了 JetBrains 自己以外，我觉得在 Java 界比较有分量的就是 Square 了，如果 Google 能够稍微提一句 Kotlin ，显然这个故事就会有另外一个令人兴奋的版本——好啦，不要 yy 啦。</p>
 <p>据说，比较著名的主要有Amazon Web Services, Pinterest, Coursera, Netflix, Uber, Square, Trello, Basecamp 这些公司将 Kotlin 投入了生产实践当中。国内资料较少，估计接触的人也不是很多，像百度、腾讯、阿里巴巴、滴滴、新美大、小米、京东这样的公司可能还没有太多的动力去将 Kotlin 应用到开发中，就算开始尝试，也多是在 Android 开发上面试水；而敢于尝试 Kotlin 的，更多是没有什么历史包袱且富于创新和挑战精神的创业团队，对于他们而言 Kotlin 为开发带来的效率是非常诱人的。</p>
 <p>说到这里，有两个令人兴奋的消息需要同步给大家：</p>
@@ -7050,13 +6114,7 @@ mvn install
 <p>但这样写起来是不是非常的不流畅？如果用 use() 的话，简直一气呵成：</p>
 <figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">reader.use&#123;</div><div class="line">	reader -&gt; ... <span class="keyword">do</span> something with <span class="string">"reader"</span> ...</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>所以，这次更新 Kotlin 的插件为我们带来了这样的自动转换功能：</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/assets/2017.1.2/try.gif" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/assets/2017.1.2/try.gif" alt=""></p>
 <ul>
 <li><ol>
 <li>补全具名参数</li>
@@ -7064,13 +6122,7 @@ mvn install
 </li>
 </ul>
 <p>通常我们在编写代码的时候，函数入参都会按照顺序一个一个传入，不过随着代码量的增加，特别是对于参数较多的函数，一长串的代码看上去会让我们感到非常的头疼。所以，这次更新 Kotlin 还为我们带来了自动补全具名参数的功能。</p>
-<figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="/assets/2017.1.2/args.gif" alt="" title="">
-                </div>
-                <div class="image-caption"></div>
-            </figure>
+<p><img src="/assets/2017.1.2/args.gif" alt=""></p>
 <ul>
 <li><ol>
 <li>删除空构造方法的声明</li>
